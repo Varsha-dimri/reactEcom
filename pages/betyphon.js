@@ -21,6 +21,7 @@ const BeTyphon = () => {
             <Partner />
             <WhatWeOffer />
             <AboutUsContent />
+            
             <OurServices />
             <FunFactsArea />
             <Projects />
@@ -29,6 +30,7 @@ const BeTyphon = () => {
             <BlogCard />
             <Newsletter />
             <Footer />
+            
         </>
     )
 }
