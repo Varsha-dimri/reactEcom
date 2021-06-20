@@ -111,12 +111,7 @@ class Feedback extends React.Component {
         return (
             <section className="feedback-area ptb-80 bg-f7fafd">
                 <div className="container">
-                    <div className="section-title">
-                        <h2>What users Saying</h2>
-                        <div className="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-
+                    
                     <div className="feedback-slides">
                         <div className="client-feedback">
                             <div>
@@ -148,27 +143,7 @@ class Feedback extends React.Component {
 
                 </div>
 
-                <div className="shape1">
-                    <img src="/images/shape1.png" alt="shape" />
-                </div>
-                <div className="shape2 rotateme">
-                    <img src="/images/shape2.svg" alt="shape" />
-                </div>
-                <div className="shape4">
-                    <img src="/images/shape4.svg" alt="shape" />
-                </div>
-                <div className="shape5">
-                    <img src="/images/shape5.png" alt="shape" />
-                </div>
-                <div className="shape6 rotateme">
-                    <img src="/images/shape4.svg" alt="shape" />
-                </div>
-                <div className="shape7">
-                    <img src="/images/shape4.svg" alt="shape" />
-                </div>
-                <div className="shape8 rotateme">
-                    <img src="/images/shape2.svg" alt="shape" />
-                </div>
+                
             </section>
         );
     }
@@ -176,52 +151,28 @@ class Feedback extends React.Component {
 
 const DEFAULT_PROPS = [
     {
-        name: 'David Gale', 
-        profession: 'Web Developer',
-        image: '/images/client-image/client2.jpg', 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        image: '/images/client-image/tourista.jpg', 
     },
     {
-        name: 'Matt Damon', 
-        profession: 'Software Engineer',
         image: '/images/client-image/client4.jpg', 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        name: 'Nicky Parsons', 
-        profession: 'Fictional Character',
         image: '/images/client-image/client1.jpg', 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        name: 'Jason Momoa', 
-        profession: 'American Actor',
         image: '/images/client-image/client5.jpg', 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        name: 'Gennady Korotkevich', 
-        profession: 'Sport Programmer',
         image: '/images/client-image/client3.jpg', 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        name: 'Petr Mitrichev', 
-        profession: 'Russian Programmer',
         image: '/images/client-image/client3.jpg', 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        name: 'Reid W. Barton', 
-        profession: 'Mathematics',
         image: '/images/client-image/client2.jpg', 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        name: 'Lisa Sauermann', 
-        profession: 'Mathematician',
         image: '/images/client-image/client1.jpg', 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     }
 ];
 

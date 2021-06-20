@@ -2,8 +2,8 @@ import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner';
-import PricingStyleOne from '@/components/PricingPlans/IVRPricing';
-import PricingStyleTwo from '@/components/PricingPlans/TollfreePricing';
+import PricingStyleOne from '@/components/PricingPlans/PricingStyleOne';
+import PricingStyleTwo from '@/components/PricingPlans/PricingStyleTwo';
 import PricingStyleFour from '@/components/PricingPlans/PricingStyleFour'; 
  
 const Pricing = () => {

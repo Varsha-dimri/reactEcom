@@ -7,7 +7,20 @@ const ServicesArea = () => {
             <div className="services-area pt-80 pb-50 bg-f7fafd">
                 <div className="container">
                     <div className="row h-100 justify-content-center align-items-center">
-                         <div className="col-lg-6 col-md-12 services-left-image"> 
+                         
+                        <div className="col-lg-5">
+                            <div className="hero-content">
+                                <h2>Create A Big Company Image with IVR Services</h2>
+                                    
+                                <h5>Grow your business with Cloud technology based IVR :</h5>
+						        <p>IVR stands for Interactive Voice Response. This technology enables interaction between a caller and a computer via the telephone. Callers can interact with IVR systems by pressing numbers on a telephone keypad or by speaking simple commands to answer the computer’s voice prompts. Call will be get connected to desire person/department anywhere. Techmet offers Cloud PBX is innovative reporting system for small, medium and enterprises business in india.</p>									
+						        {/* <Link href="/contact">
+							        <a className="btn btn-primary">Get Started</a>
+						        </Link> */}
+					        </div>
+                        </div>
+
+                        <div className="col-lg-6 col-md-12 services-left-image"> 
                             <img 
                                 src="/images/services-left-image/big-monitor.png"
                                 className="animate__animated animate__fadeInDown animate__delay-0.2s" 
@@ -68,17 +81,6 @@ const ServicesArea = () => {
                                 className="animate__animated animate__fadeInUp animate__delay-0.2s" 
                                 alt="main-pic"
                             /> 
-                        </div> 
-                        <div className="col-lg-5">
-                            <div className="hero-content">
-                                <h2>Create A Big Company Image with IVR Services</h2>
-                                    
-                                <h5>Grow your business with Cloud technology based IVR :</h5>
-						        <p>IVR stands for Interactive Voice Response. This technology enables interaction between a caller and a computer via the telephone. Callers can interact with IVR systems by pressing numbers on a telephone keypad or by speaking simple commands to answer the computer’s voice prompts. Call will be get connected to desire person/department anywhere. Techmet offers Cloud PBX is innovative reporting system for small, medium and enterprises business in india.</p>									
-						        {/* <Link href="/contact">
-							        <a className="btn btn-primary">Get Started</a>
-						        </Link> */}
-					        </div>
                         </div>
                      </div> 
                 </div>
@@ -86,64 +88,7 @@ const ServicesArea = () => {
             <div className="services-area ptb-80 pb-50">
                 <div className="container">
                     <div className="row justify-content-center align-items-center"> 
-                        <div className="col-lg-6 col-md-12 services-content">
-                            <div className="section-title">
-                                <h2>Benefits</h2>
-                            </div>
-
-                            <div className="row">
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Database /> One Number for Callers
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Globe /> Call attending at 1st ring
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.File /> Distribute Same information to each caller
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Cloud /> Increase your brand image for callers
-                                    </div>
-                                </div>
-                                
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.TrendingUp /> No Hardware cost
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Folder /> Never loss business leads
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Monitor /> Pay-as-you-grow model
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Mail /> Scale without adding manpower
-                                    </div>
-                                </div>
-                           </div>
-                        </div>
-                            
-
-                        <div className="col-lg-6 col-md-12 services-right-image">
+                    <div className="col-lg-6 col-md-12 services-right-image">
                             <img 
                                 src="/images/services-right-image/book-self.png"
                                 className="animate__animated animate__fadeInDown animate__delay-0.2s" 
@@ -236,6 +181,65 @@ const ServicesArea = () => {
                                 alt="main-pic"
                             />
                         </div>
+
+                        <div className="col-lg-6 col-md-12 services-content">
+                            <div className="section-title">
+                                <h2>Benefits</h2>
+                            </div>
+
+                            <div className="row">
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="box">
+                                        <Icon.Database /> One Number for Callers
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="box">
+                                        <Icon.Globe /> Call attending at 1st ring
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="box">
+                                        <Icon.File /> Distribute Same information to each caller
+                                    </div>
+                                </div> 
+
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="box">
+                                        <Icon.Cloud /> Increase your brand image for callers
+                                    </div>
+                                </div>
+                                
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="box">
+                                        <Icon.TrendingUp /> No Hardware cost
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="box">
+                                        <Icon.Folder /> Never loss business leads
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="box">
+                                        <Icon.Monitor /> Pay-as-you-grow model
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="box">
+                                        <Icon.Mail /> Scale without adding manpower
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                            
+
+                        
                     </div>
                 </div>
             </div>     
