@@ -29,6 +29,7 @@ const BeTyphon = () => {
             <BlogCard />
             <Newsletter />
             <Footer />
+            
         </>
     )
 }
