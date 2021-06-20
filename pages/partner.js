@@ -17,22 +17,9 @@ const Partner = () => {
                     <div className="row">
                         <div className="col-lg-8 col-md-12">
                             <div className="blog-details-desc">
-                                <div className="article-image">
-                                    <img src="/images/blog-image/blog-details.jpg" alt="image" />
-                                </div>
-
+                            
                                 <div className="article-content">
-                                    <div className="entry-meta">
-                                        <ul>
-                                            <li>
-                                                <Icon.Clock /> September 31, 2021
-                                            </li>
-                                            <li>
-                                                <Icon.User /> <a href="#">Steven Smith</a>
-                                            </li>
-                                        </ul>
-                                    </div>
- 
+                                    
                                     <h2>The security risks of changing package owners</h2> 
 
                                     <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quia non numquam eius modi tempora incidunt ut labore et dolore magnam dolor sit amet, consectetur adipisicing.</p>

@@ -4,7 +4,7 @@ import MainBanner from "@/components/Employee Tracking Solution/MainBanner";
 import TopFeatures from '@/components/Employee Tracking Solution/TopFeatures';
 import DomainSearch from '@/components/Employee Tracking Solution/DomainSearch';
 import WhyChoose from '@/components/Employee Tracking Solution/WhyChoose';
-import TollfreePricing from '@/components/PricingPlans/TollfreePricing';
+import PricingStyleTwo from '@/components/PricingPlans/PricingStyleTwo';
 import FeedbackStyleTwo from '@/components/Common/FeedbackStyleTwo';
 import Partner from "@/components/Common/Partner";
 import Features from '@/components/Employee Tracking Solution/Features';
@@ -20,7 +20,7 @@ const EmployeeTrackingSolution = () => {
             <TopFeatures />
             <DomainSearch />
             <WhyChoose />
-            <TollfreePricing />
+            <PricingStyleTwo />
             <FeedbackStyleTwo />
             <div className="pb-80">
                 <Partner />

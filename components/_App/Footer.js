@@ -15,7 +15,7 @@ const Footer = () => {
                             <h2>Important Links</h2>
                             <ul className="list">
                                 <li>
-                                    <Link href="best-ivr-service-provider">
+                                    <Link href="">
                                         <a>Best IVR Service Provider</a>
                                     </Link>
                                 </li>
@@ -53,7 +53,7 @@ const Footer = () => {
                             <h2>Solutions</h2>
                             <ul className="list">
                                 <li>
-                                    <Link href="ivr-services">
+                                    <Link href="/about-1">
                                         <a>IVR Services</a>
                                     </Link>
                                 </li>

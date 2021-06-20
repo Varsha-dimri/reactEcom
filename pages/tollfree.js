@@ -5,7 +5,7 @@ import Bar from "@/components/common/Bar";
 import ServicesArea from "@/components/Tollfree/ServicesArea";
 import Features from "@/components/IVRServices/Features";
 import IVRWorks from "@/components/Tollfree/IVRWorks";
-import TollfreePricing from "@/components/PricingPlans/TollfreePricing";
+import PricingStyleTwo from "@/components/PricingPlans/PricingStyleTwo";
 import FAQ from "@/components/Tollfree/Faq";
 import Footer from "@/components/_App/Footer";
 import Text from "@/components/Tollfree/Text";
@@ -20,7 +20,7 @@ const Tollfree = () => {
             <ServicesArea />
             <Features />
             <IVRWorks />
-            <TollfreePricing />
+            <PricingStyleTwo />
             <FAQ />
             <Footer />
         </>

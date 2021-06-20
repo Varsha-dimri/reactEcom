@@ -10,10 +10,10 @@ const ServicesArea = () => {
                          
                         <div className="col-lg-5">
                             <div className="hero-content">
-                                <h2>Create A Big Company Image with IVR Services</h2>
+                                <h2>Thousands of businesses reaping huge benefits from <strong>Virtual Number</strong> services</h2><br />
                                     
-                                <h5>Grow your business with Cloud technology based IVR :</h5>
-						        <p>IVR stands for Interactive Voice Response. This technology enables interaction between a caller and a computer via the telephone. Callers can interact with IVR systems by pressing numbers on a telephone keypad or by speaking simple commands to answer the computer’s voice prompts. Call will be get connected to desire person/department anywhere. Techmet offers Cloud PBX is innovative reporting system for small, medium and enterprises business in india.</p>									
+                                <h5>Grow your business with Virtual Number :</h5><br />
+						        <p>Virtual Number helps to manage business without moving from your seat. Calls can be forwarded to personal mobile phone so you manage your business anytime, anywhere. It enables interaction between a caller and a computer via telephone. Now, without installing a hardware – Possible to have complex and infinitely phone or voice workflow for business – Cloud telephony.</p>									
 						        {/* <Link href="/contact">
 							        <a className="btn btn-primary">Get Started</a>
 						        </Link> */}
