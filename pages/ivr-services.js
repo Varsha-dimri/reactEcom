@@ -21,6 +21,8 @@ const IVRServices = () => {
             <IVRPricing />
             <FAQ />
             <Footer />
+
+
         </>
     )
 }
