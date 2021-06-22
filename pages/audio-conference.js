@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
+import AudioConferencePricing from "@/components/PricingPlans/Navbarsolutions/AudioConferencePricing";
 import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner'; 
 import Link from 'next/link';
@@ -8,6 +9,7 @@ const AudioConference = () => {
     return (
         <>
             <Navbar />
+            <AudioConferencePricing />
 
             <PageBanner pageTitle="Projects Style Two" />
 

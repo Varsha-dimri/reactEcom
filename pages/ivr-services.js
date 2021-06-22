@@ -4,7 +4,7 @@ import MainBanner from "@/components/IVRServices/MainBanner";
 import ServicesArea from "@/components/IVRServices/ServicesArea";
 import Features from "@/components/IVRServices/Features";
 import IVRWorks from "@/components/IVRServices/IVRWorks";
-import PricingStyleOne from "@/components/PricingPlans/PricingStyleOne";
+import IVRPricing from "@/components/PricingPlans/Navbarsolutions/IVRPricing";
 import FAQ from "@/components/IVRServices/Faq";
 import Footer from "@/components/_App/Footer";
 import Bar from "@/components/common/Bar";
@@ -18,7 +18,7 @@ const IVRServices = () => {
             <ServicesArea />
             <Features />
             <IVRWorks />
-            <PricingStyleOne />
+            <IVRPricing />
             <FAQ />
             <Footer />
         </>

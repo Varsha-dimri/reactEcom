@@ -6,7 +6,7 @@ import ServicesArea from "@/components/IVRServices/ServicesArea";
 import Team from "@/components/Common/Team";
 import FunFactsArea from "@/components/Common/FunFactsArea";
 import RecentWorks from "@/components/Common/RecentWorks";
-import PricingStyleOne from "@/components/PricingPlans/PricingStyleOne";
+import IVRPricing from "@/components/PricingPlans/Navbarsolutions/IVRPricing";
 import Feedback from "@/components/Common/Feedback";
 import Partner from "@/components/Common/Partner";
 import BlogPost from "@/components/Common/BlogPost";
@@ -26,7 +26,7 @@ const Index = () => {
             <Team />
             <FunFactsArea />
             <RecentWorks />
-            <PricingStyleOne />
+            <IVRPricing />
             <Feedback />
             <Partner />
             <FAQ />
@@ -35,5 +35,4 @@ const Index = () => {
         </>
     )
 }
-
 export default Index;

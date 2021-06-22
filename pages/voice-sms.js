@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
+import VoicesmsPricing from "@/components/PricingPlans/Navbarsolutions/VoicesmsPricing";
 import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner';
 import Link from 'next/link';
@@ -8,6 +9,7 @@ const VoiceSMS = () => {
     return (
         <>
             <Navbar />
+            <VoicesmsPricing />
 
             <PageBanner pageTitle="Services Style Two" />
 
@@ -119,8 +121,9 @@ const VoiceSMS = () => {
                 <div className="shape8 rotateme">
                     <img src="/images/shape2.svg" alt="shape" />
                 </div>
-            </div> 
- 
+            </div>
+
+            
             <Footer />
         </>
     )

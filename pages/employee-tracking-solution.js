@@ -1,10 +1,10 @@
 import React from 'react';
-import NavbarStyleTwo from "@/components/_App/NavbarStyleTwo";
+import Navbar from "@/components/_App/Navbar";;
 import MainBanner from "@/components/Employee Tracking Solution/MainBanner";
 import TopFeatures from '@/components/Employee Tracking Solution/TopFeatures';
 import DomainSearch from '@/components/Employee Tracking Solution/DomainSearch';
 import WhyChoose from '@/components/Employee Tracking Solution/WhyChoose';
-import PricingStyleTwo from '@/components/PricingPlans/PricingStyleTwo';
+import EmployeetrackingPricing from '@/components/PricingPlans/Navbarsolutions/EmployeetrackingPricing';
 import FeedbackStyleTwo from '@/components/Common/FeedbackStyleTwo';
 import Partner from "@/components/Common/Partner";
 import Features from '@/components/Employee Tracking Solution/Features';
@@ -15,12 +15,12 @@ import Footer from "@/components/_App/Footer";
 const EmployeeTrackingSolution = () => {
     return (
         <>
-            <NavbarStyleTwo />
+            <Navbar />
             <MainBanner />
             <TopFeatures />
             <DomainSearch />
             <WhyChoose />
-            <PricingStyleTwo />
+            <EmployeetrackingPricing />
             <FeedbackStyleTwo />
             <div className="pb-80">
                 <Partner />
