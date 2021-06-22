@@ -7,7 +7,7 @@ import AboutUsContent from '@/components/BeTyphon/AboutUsContent';
 import OurServices from '@/components/BeTyphon/OurServices';
 import FunFactsArea from '@/components/Common/FunFactsArea';
 import Projects from '@/components/BeTyphon/Projects';
-import PricingStyleFour from '@/components/PricingPlans/PricingStyleFour';
+import BeTyphonPricing from '@/components/PricingPlans/Navbarsolutions/BeTyphonPricing';
 import FeedbackStyleFour from '@/components/Common/FeedbackStyleFour';
 import BlogCard from '@/components/BeTyphon/BlogCard';
 import Newsletter from '@/components/Common/Newsletter';
@@ -24,7 +24,7 @@ const BeTyphon = () => {
             <OurServices />
             <FunFactsArea />
             <Projects />
-            <PricingStyleFour /> 
+            <BeTyphonPricing /> 
             <FeedbackStyleFour />
             <BlogCard />
             <Newsletter />

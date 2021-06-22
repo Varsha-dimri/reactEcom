@@ -4,7 +4,7 @@ import MainBanner from '@/components/Missed Call Service/MainBanner';
 import ServicesArea from '@/components/Missed Call Service/ServicesArea';
 import Features from '@/components/Missed Call Service/Features';
 import IVRWorks from '@/components/Missed Call Service/IVRWorks';
-import PricingStyleTwo from '@/components/PricingPlans/PricingStyleTwo';
+import MissedCallPricing from '@/components/PricingPlans/Navbarsolutions/MissedCallPricing';
 import Footer from "@/components/_App/Footer";
 // import FAQ from "@/components/Missed Call Service/Faq";
 import Bar from "@/components/common/Bar";
@@ -20,7 +20,7 @@ const MissedCallService = () => {
             <ServicesArea />
             <Features />
             <IVRWorks />
-            <PricingStyleTwo />
+            <MissedCallPricing />
             {/* <FAQ /> */}
             <Footer />
         </>

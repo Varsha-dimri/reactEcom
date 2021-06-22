@@ -1,12 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
 
-const PricingStyleThree= () => {
+const AudioConferencePricing= () => {
     return (
         <div className="pricing-area pt-80 pb-50 bg-f7fafd">
             <div className="container">
                 <div className="section-title">
-                    <h2>Pricing Plans</h2>
+                    <h2>Pricing </h2>
                 </div>
 
                 <div className="row justify-content-center">
@@ -15,21 +15,23 @@ const PricingStyleThree= () => {
                             <div className="pricing-header">
                                 <i className="flaticon-data"></i>
                                 <h4>Startup</h4>
-                                <h1>Rs. 18000/ Yearly</h1>
-                                <h3>12000 Minutes</h3>
+                                <h3>Rs. 2500 with 5 Attendee</h3>
+                                <h5> Monthly</h5>
                             </div>
                         
                                 <div className="pricing-features">
                                 <ul>
-                                    <li><i data-feather="check"></i> Welcome Message</li>
-                                    <li><i data-feather="check"></i> Programmable Extensions</li>
-                                    <li><i data-feather="check"></i> SMS Alert</li>
-                                    <li><i data-feather="check"></i> Voicemail</li>
-                                    <li><i data-feather="check"></i> Number Blacklist</li>
-                                    <li><i data-feather="check"></i> Multilevel IVR</li>
-                                    <li><i data-feather="check"></i> Sticky Agent</li>
-                                    <li><i data-feather="check"></i> Circle base Routing</li>
-                                    <li><i data-feather="check"></i> Customize Sender Id</li>
+                                    <li><i data-feather="check"></i> Welcome Message </li>
+                                    <li><i data-feather="check"></i> Allowed Only List</li>
+                                    <li><i data-feather="check"></i> Attendance Reports</li>
+                                    <li><i data-feather="check"></i>Demand PIN </li>
+                                    <li><i data-feather="check"></i> Recording & Playback </li>
+                                    <li><i data-feather="check"></i> Leader Hangup </li>
+                                    <li><i data-feather="check"></i> Lecture Mode Conference </li>
+                                    <li><i data-feather="check"></i> Operator Dial-Out </li>
+                                    
+
+                                    
                                 </ul>
                             </div>
                             
@@ -46,22 +48,22 @@ const PricingStyleThree= () => {
                             <div className="pricing-header">
                                 <i className="flaticon-cloud"></i>
                                 <h4>Advance</h4>
-                                <h1>Rs. 6000/ Yearly</h1>
-                                <h3>42000 Minutes</h3>
+                                <h3>Rs. 6000 with 15 Attendee</h3>
+                                <h5>Montly</h5>
                             </div>
                        
                             
                             <div className="pricing-features">
                                 <ul>
-                                     <li><i data-feather="check"></i> Welcome Message</li>
-                                    <li><i data-feather="check"></i> Programmable Extensions</li>
-                                    <li><i data-feather="check"></i> SMS Alert</li>
-                                    <li><i data-feather="check"></i> Voicemail</li>
-                                    <li><i data-feather="check"></i> Number Blacklist</li>
-                                    <li><i data-feather="check"></i> Multilevel IVR</li>
-                                    <li><i data-feather="check"></i> Sticky Agent</li>
-                                    <li><i data-feather="check"></i> Customize Sender Id</li>
-                                    <li><i data-feather="check"></i> Circle base Routing</li>
+                                <li><i data-feather="check"></i> Welcome Message </li>
+                                    <li><i data-feather="check"></i> Allowed Only List</li>
+                                    <li><i data-feather="check"></i> Attendance Reports</li>
+                                    <li><i data-feather="check"></i>Demand PIN </li>
+                                    <li><i data-feather="check"></i> Recording & Playback </li>
+                                    <li><i data-feather="check"></i> Leader Hangup </li>
+                                    <li><i data-feather="check"></i> Lecture Mode Conference </li>
+                                    <li><i data-feather="check"></i> Operator Dial-Out </li>
+                                    
                                 </ul>
                             </div>
                             
@@ -78,23 +80,23 @@ const PricingStyleThree= () => {
                             <div className="pricing-header">
                                 <i className="flaticon-vps"></i>
                                 <h4>Business</h4>
-                                <h1>Rs.1,20,000/ Yearly</h1>
-                                <h3>90000 Minutes</h3>
+                                <h3>Rs. 10000 with 30 Attendee</h3>
+                                <h5>Monthly</h5>
                                 
                             </div>
                        
                             
                             <div className="pricing-features">
                                 <ul>
-                                <li><i data-feather="check"></i> Welcome Message</li>
-                                    <li><i data-feather="check"></i> Programmable Extensions</li>
-                                    <li><i data-feather="check"></i> SMS Alert</li>
-                                    <li><i data-feather="check"></i> Voicemail</li>
-                                    <li><i data-feather="check"></i> Number Blacklist</li>
-                                    <li><i data-feather="check"></i> Multilevel IVR</li>
-                                    <li><i data-feather="check"></i> Sticky Agent</li>
-                                    <li><i data-feather="check"></i> Circle base Routing</li>
-                                     <li><i data-feather="check"></i> Customize Sender Id</li>
+                                <li><i data-feather="check"></i> Welcome Message </li>
+                                    <li><i data-feather="check"></i> Allowed Only List</li>
+                                    <li><i data-feather="check"></i> Attendance Reports</li>
+                                    <li><i data-feather="check"></i>Demand PIN </li>
+                                    <li><i data-feather="check"></i> Recording & Playback </li>
+                                    <li><i data-feather="check"></i> Leader Hangup </li>
+                                    <li><i data-feather="check"></i> Lecture Mode Conference </li>
+                                    <li><i data-feather="check"></i> Operator Dial-Out </li>
+                                    
                                 </ul>
                             </div>
                             
@@ -125,4 +127,4 @@ const PricingStyleThree= () => {
     );
 }
 
-export default PricingStyleThree;
+export default AudioConferencePricing;
