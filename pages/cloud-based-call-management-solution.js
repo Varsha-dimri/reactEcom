@@ -1,34 +1,30 @@
 import React from 'react';
-import NavbarStyleFive from "@/components/_App/NavbarStyleFive";
-import MainBanner from "@/components/CloudBasedCallManagementSolution/MainBanner";
-import WhatWeOffer from '@/components/CloudBasedCallManagementSolution/WhatWeOffer';
-import AboutUsContent from '@/components/CloudBasedCallManagementSolution/AboutUsContent';
-import OurServices from '@/components/CloudBasedCallManagementSolution/OurServices';
-import DigitalAgencyFunFacts from '@/components/CloudBasedCallManagementSolution/CloudBasedCallManagementSolutionFunFacts';
-import Projects from '@/components/CloudBasedCallManagementSolution/Projects';
-import PricingStyleThree from '@/components/PricingPlans/PricingStyleThree';
-import FeedbackStyleThree from '@/components/Common/FeedbackStyleThree';
-import BlogPostStyleTwo from '@/components/Common/BlogPostStyleTwo';
+import Navbar from "@/components/_App/Navbar";
+import MainBanner from "@/components/CloudTelephony/MainBanner";
+import Bar from "@/components/Common/BarUseCase";
+import ServicesArea from "@/components/CloudTelephony/ServicesArea";
+import CloudTelephonyWorks from "@/components/CloudTelephony/CloudTelephonyWorks";
+import Partners from '@/components/Common/Partners';
 import CTAStyleTwo from '@/components/Common/CTAStyleTwo';
 import Footer from "@/components/_App/Footer";
 
-const CloudBasedCallManagementSolution = () => {
+
+const CloudTelephony = () => {
     return (
         <>
-            <NavbarStyleFive />
+            <Navbar />
             <MainBanner />
-            <WhatWeOffer />
-            <AboutUsContent />
-            <OurServices />
-            <DigitalAgencyFunFacts />
-            <Projects />
-            <PricingStyleThree />
-            <FeedbackStyleThree />
-            <BlogPostStyleTwo />
+            <Bar />
+            <ServicesArea />
+            <CloudTelephonyWorks />
+
+            <Partners />
+
             <CTAStyleTwo />
+            
             <Footer />
         </>
     )
 }
 
-export default CloudBasedCallManagementSolution;
+export default CloudTelephony;

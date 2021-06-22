@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-const Bar = () => {
+const BarUseCase = () => {
     return (
         <>
             <div className="container ptb-80 pb-50">
@@ -16,16 +16,7 @@ const Bar = () => {
                                 <a className="btn btn-primary">Pricing</a>
                             </Link>
                         </div>
-                        <div className="col-lg-2 col-md-3 col-6">
-                            <Link href="/contact">
-                                <a className="btn btn-primary">FAQ</a>
-                            </Link>
-                        </div>
-                        <div className="col-lg-2 col-md-3 col-6">
-                            <Link href="/contact">
-                               <a className="btn btn-primary">LOGIN</a>
-                            </Link>
-                       </div>
+                        
                         <div className="col-lg-3 col-md-3 col-6">
                             <Link href="/contact">
                                 <a className="btn btn-danger">FREE TRIAL</a>
@@ -33,11 +24,10 @@ const Bar = () => {
                         </div>
                     </div>
                 </div>
-            </div>         
-           
+            </div>        
         </>
     )
  
 }
 
-export default Bar;  
+export default BarUseCase;  

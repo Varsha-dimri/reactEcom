@@ -28,7 +28,7 @@ const options = {
     }
 }
 
-const Partner = () => {
+const Partners = () => {
     const [display, setDisplay] = React.useState(false);
 
     React.useEffect(() => {
@@ -36,7 +36,7 @@ const Partner = () => {
     }, [])
 
     return (
-        <div className="ml-partner-area mt-minus-top ptb-80 pb-0">
+        <div className="ml-partner-area mt-minus-top ptb-80 pb-50">
             <div className="container">
                 {display ? <OwlCarousel 
                     className="partner-slides owl-carousel owl-theme"
@@ -72,8 +72,8 @@ const Partner = () => {
                     <div className="single-ml-partner">
                         <Link href="#">
                             <a target="_blank">
-                                <img src="/images/partner-img/partner-10.png" alt="image" />
-                                <img src="/images/partner-img/partner-hover10.png" alt="image" />
+                                <img src="/images/partner-img/partner-4.png" alt="image" />
+                                <img src="/images/partner-img/partner-hover4.png" alt="image" />
                             </a>
                         </Link>
                     </div>
@@ -96,18 +96,10 @@ const Partner = () => {
                         </Link>
                     </div>
                 
-                    <div className="single-ml-partner">
-                        <Link href="#">
-                            <a target="_blank">
-                                <img src="/images/partner-img/partner-7.png" alt="image" />
-                                <img src="/images/partner-img/partner-hover7.png" alt="image" />
-                            </a>
-                        </Link>
-                    </div>
                 </OwlCarousel> : ''}
             </div>
         </div>
     );
 }
 
-export default Partner;
+export default Partners;

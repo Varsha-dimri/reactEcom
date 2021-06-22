@@ -7,6 +7,8 @@ import Features from "@/components/IVRServices/Features";
 import IVRWorks from "@/components/Tollfree/IVRWorks";
 import PricingStyleTwo from "@/components/PricingPlans/PricingStyleTwo";
 import FAQ from "@/components/Tollfree/Faq";
+import Partners from '@/components/Common/Partners';
+import CTAStyleTwo from '@/components/Common/CTAStyleTwo';
 import Footer from "@/components/_App/Footer";
 import Text from "@/components/Tollfree/Text";
 
@@ -21,6 +23,8 @@ const Tollfree = () => {
             <Features />
             <IVRWorks />
             <PricingStyleTwo />
+            <Partners />
+            <CTAStyleTwo />
             <FAQ />
             <Footer />
         </>

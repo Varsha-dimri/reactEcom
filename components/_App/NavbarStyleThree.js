@@ -278,25 +278,8 @@ const NavbarStyleThree = () => {
                                                 </a>
                                             </Link>
 
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link href="/login" activeClassName="active">
-                                                        <a onClick={toggleNavbar} className="nav-link">Login</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/sign-up" activeClassName="active">
-                                                        <a onClick={toggleNavbar} className="nav-link">Sign Up</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="/forgot-password" activeClassName="active">
-                                                        <a onClick={toggleNavbar} className="nav-link">Forgot Password</a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
+                                        
+                                                
                                         </li>
                                     
                                         <li className="nav-item">
