@@ -1,28 +1,30 @@
 import React from 'react';
-import NavbarStyleSix from "@/components/_App/NavbarStyleSix";
-import MainBanner from '@/components/CloudBasedCallManagementSystem/MainBanner';
-import Projects from '@/components/CloudBasedCallManagementSystem/Projects';
-import AboutUsContent from '@/components/CloudBasedCallManagementSystem/AboutUsContent';
-import FeedbackStyleFive from '@/components/Common/FeedbackStyleFive';
-import Partner from '@/components/CloudBasedCallManagementSystem/Partner';
-import BlogPostStyleThree from '@/components/Common/BlogPostStyleThree';
-import CreativeArea from '@/components/CloudBasedCallManagementSystem/CreativeArea';
+import Navbar from "@/components/_App/Navbar";
+import MainBanner from "@/components/CloudTelephony/MainBanner";
+import Bar from "@/components/Common/BarUseCase";
+import ServicesArea from "@/components/CloudTelephony/ServicesArea";
+import CloudTelephonyWorks from "@/components/CloudTelephony/CloudTelephonyWorks";
+import Partners from '@/components/Common/Partners';
+import CTAStyleTwo from '@/components/Common/CTAStyleTwo';
 import Footer from "@/components/_App/Footer";
 
-const CloudBasedCallManagementSystem = () => {
+
+const CloudTelephony = () => {
     return (
         <>
-            <NavbarStyleSix />
+            <Navbar />
             <MainBanner />
-            <Projects />
-            <AboutUsContent />
-            <FeedbackStyleFive />
-            <Partner />
-            <BlogPostStyleThree />
-            <CreativeArea />
+            <Bar />
+            <ServicesArea />
+            <CloudTelephonyWorks />
+
+            <Partners />
+
+            <CTAStyleTwo />
+            
             <Footer />
         </>
     )
 }
 
-export default CloudBasedCallManagementSystem;
+export default CloudTelephony;

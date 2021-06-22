@@ -1,7 +1,7 @@
 import React from 'react';
 import NavbarStyleThree from "@/components/_App/NavbarStyleThree";
 import MainBanner from '@/components/MachineLearningTwo/MainBanner';
-import Partner from '@/components/MachineLearningTwo/Partner';
+import Partner from '@/components/Common/Partners';
 import WhatWeOffer from '@/components/MachineLearningTwo/WhatWeOffer';
 import AboutUsContent from '@/components/MachineLearningTwo/AboutUsContent';
 import OurServices from '@/components/MachineLearningTwo/OurServices';
@@ -11,6 +11,7 @@ import PricingStyleFour from '@/components/PricingPlans/PricingStyleFour';
 import FeedbackStyleFour from '@/components/Common/FeedbackStyleFour';
 import BlogCard from '@/components/MachineLearningTwo/BlogCard';
 import Newsletter from '@/components/Common/Newsletter';
+import Partners from '@/components/Common/Partners';
 import Footer from "@/components/_App/Footer";
 
 const InteractiveVoiceResponse = () => {
@@ -18,7 +19,6 @@ const InteractiveVoiceResponse = () => {
         <>
             <NavbarStyleThree />
             <MainBanner />
-            <Partner />
             <WhatWeOffer />
             <AboutUsContent />
             <OurServices />
@@ -28,6 +28,7 @@ const InteractiveVoiceResponse = () => {
             <FeedbackStyleFour />
             <BlogCard />
             <Newsletter />
+            <Partners />
             <Footer />
         </>
     )
