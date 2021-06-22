@@ -1,34 +1,30 @@
 import React from 'react';
-import NavbarStyleFour from "@/components/_App/NavbarStyleFour";
-import MainBanner from '@/components/BigdataAnalytics/MainBanner';
-import WhatWeDo from '@/components/BigdataAnalytics/WhatWeDo';
-import DiscoverArea from '@/components/BigdataAnalytics/DiscoverArea';
-import Services from '@/components/BigdataAnalytics/Services';
-import TeamStyleTwo from '@/components/Common/TeamStyleTwo';
-import BigdataFunFacts from '@/components/BigdataAnalytics/BigdataFunFacts';
-import Feedback from '@/components/BigdataAnalytics/Feedback';
-import IndustriesWeServe from '@/components/BigdataAnalytics/IndustriesWeServe';
-import BlogPost from '@/components/BigdataAnalytics/BlogPost';
-import NewsletterStyleTwo from '@/components/Common/NewsletterStyleTwo';
+import Navbar from "@/components/_App/Navbar";
+import MainBanner from "@/components/CloudTelephony/MainBanner";
+import Bar from "@/components/Common/BarUseCase";
+import ServicesArea from "@/components/CloudTelephony/ServicesArea";
+import CloudTelephonyWorks from "@/components/CloudTelephony/CloudTelephonyWorks";
+import Partners from '@/components/Common/Partners';
+import CTAStyleTwo from '@/components/Common/CTAStyleTwo';
 import Footer from "@/components/_App/Footer";
 
-const CloudBasedIVRSolution = () => {
+
+const CloudTelephony = () => {
     return (
         <>
-            <NavbarStyleFour />
+            <Navbar />
             <MainBanner />
-            <WhatWeDo />
-            <DiscoverArea />
-            <Services />
-            <TeamStyleTwo />
-            <BigdataFunFacts />
-            <Feedback />
-            <IndustriesWeServe />
-            <BlogPost />
-            <NewsletterStyleTwo />
+            <Bar />
+            <ServicesArea />
+            <CloudTelephonyWorks />
+
+            <Partners />
+
+            <CTAStyleTwo />
+            
             <Footer />
         </>
     )
 }
 
-export default CloudBasedIVRSolution;
+export default CloudTelephony;
