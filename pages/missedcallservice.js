@@ -6,7 +6,6 @@ import Features from '@/components/Missed Call Service/Features';
 import IVRWorks from '@/components/Missed Call Service/IVRWorks';
 import MissedCallPricing from '@/components/PricingPlans/Navbarsolutions/MissedCallPricing';
 import Footer from "@/components/_App/Footer";
-// import FAQ from "@/components/Missed Call Service/Faq";
 import Bar from "@/components/common/Bar";
 import Text from "@/components/Missed Call Service/Text";
 
@@ -21,7 +20,6 @@ const MissedCallService = () => {
             <Features />
             <IVRWorks />
             <MissedCallPricing />
-            {/* <FAQ /> */}
             <Footer />
         </>
     )
