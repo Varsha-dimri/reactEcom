@@ -4,8 +4,9 @@ import Link from 'next/link';
 
 const Features = () => {
     return (
-        <div className="boxes-area ptb-80 pb-50 ">
-			<div className="container">
+		<div className="container">
+        <div className="features-area ptb-80 pb-50">
+			
 				<div className="section-title">
 					<h2><u>Features</u></h2>
 				</div>

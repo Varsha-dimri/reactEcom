@@ -17,8 +17,8 @@ const VirtualNumber = () => {
             <Bar />
             <ServicesArea />
             <VirtualNumberWorks />
+            <Partners />        
             <CTAStyleTwo />
-            <Partners />
             <Footer />
         </>
     )
