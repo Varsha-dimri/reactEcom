@@ -12,7 +12,6 @@ import {
 const FAQ = () => {
     return(
         <>
-            <Navbar />
 
             <div className="faq-area ptb-80">
                 <div className="container">
@@ -46,7 +45,7 @@ const FAQ = () => {
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                        Answer : You can partner with us for fastest business growth across the globe. Join us, as Solutionist Or Channel Partner as per business dedication and expectation on it. Want to know more about the program Apply here.                                    
+                                        Answer : You can partner with us for fastest business growth across the globe. Join us, as <strong>Solutionist</strong> Or <strong>Channel Partner</strong> as per business dedication and expectation on it. Want to know more about the program Apply here.                                    
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
@@ -60,17 +59,17 @@ const FAQ = () => {
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
-                                    <p>
-                                        <strong>Answer : You can pay us by any mode of payment – Online-NEFT & RTGS, Cheque, Cash Submission to bank, Paytm etc. Details are below.</strong>
-                                        <strong>Payment Link :</strong> www.techmet.in/pay
+                                    <p><strong>Answer : You can pay us by any mode of payment – Online-NEFT & RTGS, Cheque, Cash Submission to bank, Paytm etc. Details are below.</strong></p>
+                                       <p><strong>Payment Link :</strong> www.techmet.in/pay</p>
 
-                                        Bank Details:
-
-                                        Company Name    : BSD Technologies Private Limited
-                                        Account Number  : 51780200000180
-                                        IFSC Code             : BARB0RAJGAO
-                                        Branch                  : Rajendra Park, Gurgaon
-                                        Swift Code            : BARBINBBGUR
+                                       <p> <strong>Bank Details:</strong>
+                                        <ul>
+                                            Company Name    : BSD Technologies Private Limited<br />
+                                            Account Number  : 51780200000180<br />
+                                            IFSC Code       : BARB0RAJGAO<br />
+                                            Branch          : Rajendra Park, Gurgaon<br />
+                                            Swift Code      : BARBINBBGUR<br />
+                                        </ul>
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
@@ -79,13 +78,13 @@ const FAQ = () => {
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
                                         <span>
-                                            Can I share resources between features?
+                                        Question : Do you offer international services?
                                         </span>
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. incididunt ut labore et dolore magna aliqua.
+                                    Answer : Yes, Today we trusted by 5000+ businesses across 65 Countries and offering reliability & intellience thorugh our cloud telephony and cloud communication products.
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
@@ -94,13 +93,13 @@ const FAQ = () => {
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
                                         <span>
-                                            Is multidex supported for instant apps?
+                                            Question : What about Data security on cloud solutions?
                                         </span>
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. incididunt ut labore et dolore magna aliqua.
+                                    Answer :  Standard international mechanisum get followed to secure data servers with backup policies. Disclaimer-NDA (Non Disclosure Agrrement) & SLA (Service Level Agreeement) get signed with client. All solutions are Signup/Login by secure process (OTP/Email Confirmations)
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
@@ -109,13 +108,13 @@ const FAQ = () => {
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
                                         <span>
-                                            Can I share resources between features?
+                                            Question : Can i change my plan later - after subscribing the service?
                                         </span>
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. incididunt ut labore et dolore magna aliqua.
+                                    Answer : You can upgrade or downgrade your plan anytime as per your requirements or usage. You can call us +91-9871045375 or drop an email to support@techmet.in with your contact and service details. We’ll be happy to assist you.
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
@@ -126,7 +125,6 @@ const FAQ = () => {
                 </div>
             </div>
  
-            <Footer />
         </>
  
     )

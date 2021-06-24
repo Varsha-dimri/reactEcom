@@ -384,6 +384,9 @@ label {
 }
 
 /* Section Title */
+.col-3{
+  text-align: center;
+}
 .section-title {
   text-align: center;
   margin-bottom: 50px;

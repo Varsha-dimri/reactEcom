@@ -521,8 +521,11 @@ Navbar CSS
         visibility: hidden;
     }
 }
+.topbar-nav{
+    background: grey;
+}
 .startp-nav {
-    background: transparent;
+    background: #7bb8cac4;
 
     nav {
         padding: 0;
@@ -5504,7 +5507,7 @@ FAQ CSS
             background-color: #fff;
             
             font: {
-                size: 15px;
+                size: 18px;
                 weight: 500;
             }
             i {

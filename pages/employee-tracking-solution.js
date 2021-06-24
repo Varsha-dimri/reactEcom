@@ -6,7 +6,7 @@ import DomainSearch from '@/components/Employee Tracking Solution/DomainSearch';
 import WhyChoose from '@/components/Employee Tracking Solution/WhyChoose';
 import EmployeetrackingPricing from '@/components/PricingPlans/Navbarsolutions/EmployeetrackingPricing';
 import FeedbackStyleTwo from '@/components/Common/FeedbackStyleTwo';
-import Partner from "@/components/Common/Partner";
+import Partners from "@/components/Common/Partners";
 import Features from '@/components/Employee Tracking Solution/Features';
 import BlogPost from "@/components/Common/BlogPost";
 import CTA from '@/components/Common/CTA';
@@ -23,7 +23,7 @@ const EmployeeTrackingSolution = () => {
             <EmployeetrackingPricing />
             <FeedbackStyleTwo />
             <div className="pb-80">
-                <Partner />
+                <Partners />
             </div>
             <Features />
             <BlogPost />
