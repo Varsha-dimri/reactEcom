@@ -224,22 +224,7 @@ const Navbar = () => {
                             </ul>
                         </div>
 
-                        <div className="others-option">
-                            <Link href="/cart">
-                                <a className="cart-wrapper-btn">
-                                    <Icon.ShoppingCart /> 
-                                    <span>{cart.length}</span>
-                                </a>
-                            </Link>
-
-                            <Link href="/contact">
-							    <a className="btn btn-light">Support</a>
-                            </Link>
-
-                            <Link href="/login">
-							    <a className="btn btn-primary">Login</a>
-                            </Link>
-						</div>
+                        
                     </nav>
                 </div>
             </div>

@@ -15,32 +15,32 @@ const Footer = () => {
                             <h2>Important Links</h2>
                             <ul className="list">
                                 <li>
-                                    <Link href="">
+                                    <Link href="/best-ivr-service-provider">
                                         <a>Best IVR Service Provider</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="">
+                                    <Link href="/best-ivr-service-provider-in-delhi-ncr">
                                         <a>Best IVR Service Provider in delhi ncr</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="">
+                                    <Link href="/missed-call-service-provider-in-india">
                                         <a>Missed Call Service Provider in India</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="">
+                                    <Link href="/best-tollfree-service-provider-in-india">
                                         <a>Best Tollfree Service Provider in India</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="">
+                                    <Link href="/best-lead-management-software-in-india">
                                         <a>Best Lead Management Software in India</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="">
+                                    <Link href="/best-sms-service-in-delhi">
                                         <a>Best SMS Service in Delhi</a>
                                     </Link>
                                 </li>
@@ -53,42 +53,42 @@ const Footer = () => {
                             <h2>Solutions</h2>
                             <ul className="list">
                                 <li>
-                                    <Link href="/about-1">
+                                    <Link href="/ivr-services">
                                         <a>IVR Services</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/services-1">
+                                    <Link href="/tollfree">
                                         <a>Tollfree Services</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/features">
+                                    <Link href="/missedcallservice">
                                         <a>Missedcall Services</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/pricing">
+                                    <Link href="/text-sms">
                                         <a>Transaction & OTP Messages</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/blog-1">
+                                    <Link href="/click-to-call">
                                         <a>Click to Call Services</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/blog-1">
+                                    <Link href="/audio-conference">
                                         <a>Audio Conference</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/blog-1">
+                                    <Link href="/employee-tracking-solution">
                                         <a>Employee Tracking Solution</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/blog-1">
+                                    <Link href="/betyphon">
                                         <a>Betyphon – Mobile CRM</a>
                                     </Link>
                                 </li>
@@ -101,7 +101,7 @@ const Footer = () => {
                             <h2>About Us</h2> 
                             <ul className="list">
                                 <li>
-                                    <Link href="/faq">
+                                    <Link href="/partner">
                                         <a>Partner with us</a>
                                     </Link>
                                 </li>
@@ -111,17 +111,17 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/term-condition">
+                                    <Link href="/career">
                                         <a>Career</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/team">
+                                    <Link href="/pay">
                                         <a>Pay Us</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/contact">
+                                    <Link href="/blog">
                                         <a>Blog</a>
                                     </Link>
                                 </li>
@@ -150,22 +150,22 @@ const Footer = () => {
                             </ul>
                             <ul className="social-links">
                                 <li>
-                                    <Link href="#">
+                                    <Link href="https://www.facebook.com/bsdtechnologiesprivatelimited/#">
                                         <a className="facebook" target="_blank"><Icon.Facebook /></a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
+                                    <Link href="https://twitter.com/techmetbsd">
                                         <a className="twitter" target="_blank"><Icon.Twitter /></a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
+                                    <Link href="https://www.instagram.com/bsdtechnologies/">
                                         <a className="instagram" target="_blank"><Icon.Instagram /></a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
+                                    <Link href="https://www.linkedin.com/company/bsd-technologies-private-limted/">
                                         <a className="linkedin" target="_blank"><Icon.Linkedin /></a>
                                     </Link>
                                 </li>

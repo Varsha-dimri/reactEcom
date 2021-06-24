@@ -22,9 +22,6 @@ const options = {
         1024:{
             items:5,
         },
-        1200:{
-            items:6,
-        }
     }
 }
 
