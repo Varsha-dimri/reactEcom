@@ -8,11 +8,12 @@ const OurFeatures = () => {
             <div className="container">
                 <div className="section-title">
                     <h2>Our Features</h2>
+                   
                     </div>
 
-                <div className="row  text-center">
+                <div className="row">
                     <div className="col-3">
-                        <div className="single-features rounded-circle text-align">
+                        <div className="single-features rounded-circle ">
                             <h3>
                                 <Link href="">
                                 <a>Online Dashboard</a>

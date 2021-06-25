@@ -9,7 +9,7 @@ const MainBanner = () => {
 					<div className="container">
 						<div className="row h-100 justify-content-center align-items-center">
 							<div className="col-lg-6 offset-lg-1">
-								<div className="banner-image">
+								<div className="banner-image" width="2100" height="600" >
                                     <img 
                                         src='/images/banner-image/man.png' 
                                         className="animate__animated animate__fadeInDown animate__delay-0.1s" 

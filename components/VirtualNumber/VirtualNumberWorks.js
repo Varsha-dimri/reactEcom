@@ -65,7 +65,7 @@ const VirtualNumberWorks = () => {
                                 </div>
                                     
                                 <div >
-                                    <button className="btn btn-primary px-5 " type="submit"><h6>Send Enquiry</h6></button>
+                                    <button className="btn btn-primary px-5 " type="submit">Send Enquiry</button>
                                 </div>
                          
                             <h5>Instant setup. It’s free!</h5>
