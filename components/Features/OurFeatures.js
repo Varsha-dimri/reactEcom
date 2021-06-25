@@ -13,7 +13,11 @@ const OurFeatures = () => {
 
                 <div className="row">
                     <div className="col-3">
+<<<<<<< HEAD
                         <div className="single-features rounded-circle ">
+=======
+                        <div className="single-features rounded-circle">
+>>>>>>> 45a9c7bd2f072fb741ab945afe49804938261026
                             <h3>
                                 <Link href="">
                                 <a>Online Dashboard</a>

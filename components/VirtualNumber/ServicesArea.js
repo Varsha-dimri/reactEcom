@@ -4,7 +4,7 @@ import * as Icon from 'react-feather';
 const ServicesArea = () => {
     return (
         <>
-            <div className="services-area pt-80 pb-50 bg-f7fafd">
+            <div className="services-area pb-50">
                 <div className="container">
                     <div className="row h-100 justify-content-center align-items-center">
                          

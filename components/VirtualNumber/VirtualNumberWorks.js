@@ -1,6 +1,4 @@
 import React from 'react';
-// import Link from 'next/link';
-// import * as Icon from 'react-feather';
 
 
 const VirtualNumberWorks = () => {
@@ -32,14 +30,12 @@ const VirtualNumberWorks = () => {
                         
                     </div>
                     </div>
-                    <div class = "col-3">
+                    <div class = "col-lg-3">
                     
                             <div class="row">
                                 <h4>Try Free – Signup Instant</h4>
                             <div class="col-12 h-75" >
 
-                        
-                        
                                 <div className="col-lg-9 col-md-12">
                                     <div className="form-group">
                                         <input type="text" placeholder="Company Name" className="form-control" />

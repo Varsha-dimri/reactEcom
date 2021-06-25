@@ -4,7 +4,7 @@ import * as Icon from 'react-feather';
 const ServicesArea = () => {
     return (
         <>
-            <div className="services-area pt-80 pb-50 bg-f7fafd">
+            <div className="services-area">
                 <div className="container">
                     <div className="row h-100 justify-content-center align-items-center">
                          
@@ -87,160 +87,70 @@ const ServicesArea = () => {
             </div>
             <div className="services-area ptb-80 pb-50">
                 <div className="container">
-                    <div className="row justify-content-center align-items-center"> 
-                    <div className="col-lg-6 col-md-12 services-right-image">
-                            <img 
-                                src="/images/services-right-image/book-self.png"
-                                className="animate__animated animate__fadeInDown animate__delay-0.2s" 
-                                alt="book-self"
-                            />
-                           
-                            <img 
-                                src="/images/services-right-image/box.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                data-wow-delay="0.6s" 
-                                alt="box"
-                            />
-                         
-                            <img 
-                                src="/images/services-right-image/chair.png"
-                                className="animate__animated animate__fadeInLeft animate__delay-0.2s" 
-                                alt="chair"
-                            /> 
-                            
-                            <img 
-                                src="/images/services-right-image/cloud.png"
-                                className="animate__animated animate__zoomIn animate__delay-0.2s" 
-                                alt="cloud"
-                            />
-                   
-                            <img 
-                                src="/images/services-right-image/cup.png"
-                                className="animate__animated animate__bounceIn animate__delay-0.2s" 
-                                alt="cup"
-                            />
-               
-                            <img 
-                                src="/images/services-right-image/flower-top.png"
-                                className="animate__animated animate__fadeInDown animate__delay-0.2s" 
-                                alt="flower"
-                            />
-                     
-                            <img 
-                                src="/images/services-right-image/head-phone.png"
-                                className="animate__animated animate__zoomIn animate__delay-0.2s" 
-                                alt="head-phone"
-                            />
-                  
-                            <img 
-                                src="/images/services-right-image/monitor.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="monitor"
-                            />
-                
-                            <img 
-                                src="/images/services-right-image/mug.png"
-                                className="animate__animated animate__rotateIn animate__delay-0.2s" 
-                                alt="mug"
-                            />
-           
-                            <img 
-                                src="/images/services-right-image/table.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="table"
-                            />
-                    
-                            <img 
-                                src="/images/services-right-image/tissue.png"
-                                className="animate__animated animate__zoomIn animate__delay-0.2s" 
-                                alt="tissue"
-                            />
-                   
-                            <img 
-                                src="/images/services-right-image/water-bottle.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="water-bottle"
-                            />
-                
-                            <img 
-                                src="/images/services-right-image/wifi.png"
-                                className="animate__animated animate__fadeInLeft animate__delay-0.2s" 
-                                data-wow-delay="0.6s" 
-                                alt="wifi"
-                            />
-                        
-                            <img 
-                                src="/images/services-right-image/cercle-shape.png"
-                                className="bg-image rotateme" 
-                                alt="shape"
-                            />
-                         
-                            <img 
-                                src="/images/services-right-image/service-right-main-pic.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="main-pic"
-                            />
-                        </div>
+                    <div className="row justify-content-center align-items-center">                        
 
-                        <div className="col-lg-6 col-md-12 services-content">
                             <div className="section-title">
                                 <h2>Benefits</h2>
                             </div>
 
-                            <div className="row">
+                            <div className="row text-center">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Database /> One Number for Callers
+                                        <Icon.Database /> 
                                     </div>
+                                    <h3>One Number for Callers</h3>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Globe /> Call attending at 1st ring
+                                        <Icon.Globe /> 
                                     </div>
+                                    <h3>Call attending at 1st ring</h3>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.File /> Distribute Same information to each caller
+                                        <Icon.File /> 
                                     </div>
+                                    <h3>Distribute Same information to each caller</h3>
                                 </div> 
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Cloud /> Increase your brand image for callers
+                                        <Icon.Cloud /> 
                                     </div>
+                                    <h3>Increase your brand image for callers</h3>
                                 </div>
                                 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.TrendingUp /> No Hardware cost
+                                        <Icon.TrendingUp /> 
                                     </div>
+                                    <h3>No Hardware cost</h3>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Folder /> Never loss business leads
+                                        <Icon.Folder /> 
                                     </div>
+                                    <h3>Never loss business leads</h3>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Monitor /> Pay-as-you-grow model
+                                        <Icon.Monitor /> 
                                     </div>
+                                    <h3>Pay-as-you-grow model</h3>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="box">
-                                        <Icon.Mail /> Scale without adding manpower
+                                        <Icon.Mail /> 
                                     </div>
+                                    <h3>Scale without adding manpower</h3>
                                 </div>
                            </div>
                         </div>
-                            
-
-                        
-                    </div>
                 </div>
             </div>     
         </>
