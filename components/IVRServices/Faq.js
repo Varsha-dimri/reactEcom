@@ -114,24 +114,11 @@ const FAQ = () => {
                                     </p>
                                 </AccordionItemPanel>
                             </AccordionItem>
-
                         </Accordion>
                     </div>
-                 </div>
-                 <div className="container">
-                     <div className="col-lg-7 col-md-6">
-                        <h3>Know more about IVR Solutions, Call on +91-9871045375</h3>
-                        {/* <div className="bt">
-                           <Link href="#" active className="active"> */}
-							    <a className="btn btn-primary">Get Started</a>
-						     {/*</Link>  
-                        </div> */}
-                    </div>
                 </div>
-            </div>
- 
+            </div> 
         </>
- 
     )
 }
 

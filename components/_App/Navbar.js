@@ -14,7 +14,7 @@ const Navbar = () => {
     React.useEffect(() => {
         let elementId = document.getElementById("header");
         document.addEventListener("scroll", () => {
-            if (window.scrollY > 170) {
+            if (window.scrollY > 130) {
                 elementId.classList.add("is-sticky");
             } else {
                 elementId.classList.remove("is-sticky");
@@ -118,28 +118,27 @@ const Navbar = () => {
                                                     Customized Solutions <Icon.ChevronDown />
                                                 </a>
                                             </Link>
+                                            
                                             <ul className="dropdown-menu">
-                                                    <li className="nav-item">
-                                                        <Link href="/click-to-call" activeClassName="active">
-                                                            <a onClick={toggleNavbar} className="nav-link">Click To Call</a>
-                                                        </Link>
-                                                    </li>
+                                                <li className="nav-item">
+                                                    <Link href="/click-to-call" activeClassName="active">
+                                                        <a onClick={toggleNavbar} className="nav-link">Click To Call</a>
+                                                    </Link>
+                                                </li>   
 
-                                                    <li className="nav-item">
-                                                        <Link href="/audio-conference" activeClassName="active">
-                                                            <a onClick={toggleNavbar} className="nav-link">Audio Conference</a>
-                                                        </Link>
-                                                    </li>
+                                                <li className="nav-item">
+                                                    <Link href="/audio-conference" activeClassName="active">
+                                                        <a onClick={toggleNavbar} className="nav-link">Audio Conference</a>
+                                                    </Link>
+                                                </li>
 
-                                                    <li className="nav-item">
-                                                        <Link href="/call-centre-dialer" activeClassName="active">
-                                                            <a onClick={toggleNavbar} className="nav-link">Call Centre Dialer</a>
-                                                        </Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                       
-                                        
+                                                <li className="nav-item">
+                                                    <Link href="/call-centre-dialer" activeClassName="active">
+                                                        <a onClick={toggleNavbar} className="nav-link">Call Centre Dialer</a>
+                                                    </Link>
+                                                </li>
+                                            </ul>
+                                        </li>                     
                                     </ul>
                                 </li>
 
