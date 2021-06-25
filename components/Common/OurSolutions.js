@@ -13,8 +13,8 @@ const OurSolutions = () => {
                     <div className="row">
                         <div className="col-3">
                             <div className="icon spinner-border-m">
-                                <Icon.Server />
-                                <img src="images/ivr-icon.png" />
+                              
+                                <img src="ivr-icon-removebg-preview.png" />
 							</div>
                             <h5>IVR Service</h5><br />
                             <p>Automated telephony system that interacts with callers, gathers information & routes calls to specific recipient.</p>
