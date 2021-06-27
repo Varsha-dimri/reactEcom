@@ -1,13 +1,16 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import MainBanner from "@/components/IVRServices/MainBanner";
+import Bar from "@/components/common/Bar";
 import ServicesArea from "@/components/IVRServices/ServicesArea";
 import Features from "@/components/IVRServices/Features";
 import IVRWorks from "@/components/IVRServices/IVRWorks";
-import IVRPricing from "@/components/PricingPlans/Navbarsolutions/IVRPricing";
+import IVRPricing from "@/components/IVRServices/IVRPricing";
 import FAQ from "@/components/IVRServices/Faq";
+import Partners from "@/components/Common/Partners";
+import CTAStyleTwo from "@/components/IVRServices/CTAStyleTwo";
 import Footer from "@/components/_App/Footer";
-import Bar from "@/components/common/Bar";
+
 
 const IVRServices = () => {
     return (
@@ -19,7 +22,9 @@ const IVRServices = () => {
             <Features />
             <IVRWorks />
             <IVRPricing />
+            <Partners />
             <FAQ />
+            <CTAStyleTwo />
             <Footer />
         </>
     )

@@ -4,13 +4,12 @@ import MainBanner from "@/components/Tollfree/MainBanner";
 import Bar from "@/components/common/Bar";
 import ServicesArea from "@/components/Tollfree/ServicesArea";
 import Features from "@/components/IVRServices/Features";
-import IVRWorks from "@/components/Tollfree/TollfreeWorks";
-import TollfreePricing from "@/components/PricingPlans/Navbarsolutions/TollfreePricing";
-import FAQ from "@/components/Tollfree/Faq";
+import TollfreeWorks from "@/components/Tollfree/TollfreeWorks";
+import TollfreePricing from "@/components/Tollfree/TollfreePricing";
 import Partners from '@/components/Common/Partners';
+import SliderVirtual from "@/components/Common/sliderVirtual";
 import CTAStyleTwo from '@/components/Common/CTAStyleTwo';
 import Footer from "@/components/_App/Footer";
-import Text from "@/components/Tollfree/Text";
 
 const Tollfree = () => {
     return (
@@ -18,14 +17,13 @@ const Tollfree = () => {
             <Navbar />
             <MainBanner />
             <Bar />
-            <Text />
             <ServicesArea />
             <Features />
-            <IVRWorks />
+            <TollfreeWorks />
             <TollfreePricing />
             <Partners />
+            <SliderVirtual />
             <CTAStyleTwo />
-            <FAQ />
             <Footer />
         </>
     )

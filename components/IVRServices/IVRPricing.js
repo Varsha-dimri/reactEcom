@@ -8,7 +8,7 @@ const IVRPricing = () => {
                 <div className="section-title">
                     <h2>Price</h2>
                     <div className="bar"></div>
-                    <p>Not sure about service subscription ? Please go thru 100% refundable policy.</p>
+                    <p>Not sure about service subscription ? Please go thru <Link href="/privacy-policy"><a><strong>100% refundable policy.</strong></a></Link></p>
                 </div>
 
                 <div className="row justify-content-center">
@@ -42,7 +42,7 @@ const IVRPricing = () => {
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="#">
+                                <Link href="signup">
                                     <a className="btn btn-primary">SIGNUP TO BEGIN</a>
                                 </Link>
                             </div>
@@ -79,7 +79,7 @@ const IVRPricing = () => {
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="#">
+                                <Link href="signup">
                                     <a className="btn btn-primary">SIGNUP TO BEGIN</a>
                                 </Link>
                             </div>
@@ -116,7 +116,7 @@ const IVRPricing = () => {
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="#">
+                                <Link href="signup">
                                     <a className="btn btn-primary">SIGNUP TO BEGIN</a>
                                 </Link>
                             </div>
@@ -124,7 +124,7 @@ const IVRPricing = () => {
                     </div>
                 </div>
                 <div>
-                    <p><strong>Note:</strong> All charges of our services are exclusive of taxes, payable annually and include 24*7 customer support.</p>
+                    <p className="text-right"><strong>Note:</strong> All charges of our services are exclusive of taxes, payable annually and include 24*7 customer support.</p>
                 </div>
             </div>
 

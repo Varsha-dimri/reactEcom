@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Navbar from "@/components/_App/Navbar";
 import {
     Accordion,
@@ -18,14 +19,14 @@ const FAQ = () => {
                     <div className="faq-accordion">
                         <div className="section-title">
                             <h1>Frequently Asked Questions</h1>    
-                            <p>Do you have Question ? We’ve got answers. If you’ve some other queries, <strong>Contact us</strong></p>
+                            <p>Do you have Question ? We’ve got answers. If you’ve some other queries, <Link href="contactus"><a><strong>Contact us</strong></a></Link></p>
                         </div>
                         <Accordion allowZeroExpanded preExpanded={['a']}>
                             <AccordionItem uuid="a">
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
                                         <span>
-                                            Question: Need any customised solution which interact with caller, based on your CRM database?
+                                            Question: Need any customised solution which interact with caller, based on your CRM/database?
                                         </span>
                                     </AccordionItemButton>
                                 </AccordionItemHeading>

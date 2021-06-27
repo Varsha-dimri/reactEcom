@@ -31,20 +31,7 @@ const FunFactsArea = () => {
                         </div>
                     </div>
 
-                </div>
-
-                <div className="contact-cta-box">
-                    <h3>Have any question about us?</h3>
-                    <p>Don't hesitate to contact us</p>
- 
-                    <Link href="/contact">
-                        <a className="btn btn-primary">Contact Us</a>
-                    </Link>
-                </div>
-
-                <div className="map-bg">
-                    <img src="/images/map.png" alt="map" />
-                </div>
+                </div>         
             </div>
         </div>
     )
