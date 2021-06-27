@@ -13,9 +13,10 @@ const MainBanner = () => {
                                     <img 
                                         src='/images/banner-image/man.png' 
                                         className="animate__animated animate__fadeInDown animate__delay-0.1s" 
-                                        alt="man" 
+                                        alt="man" width="2100" 
+                                        Height="500piu"
                                     />
-                        
+                                                                    
                                     <img 
                                         src="/images/banner-image/code.png" 
                                         className="animate__animated animate__fadeInUp animate__delay-0.1s" 
@@ -28,6 +29,7 @@ const MainBanner = () => {
                                         alt="carpet"
                                     />
                             
+                            
                                     <img 
                                         src="/images/banner-image/bin.png" 
                                         className="animate__animated animate__zoomIn animate__delay-0.1s" 
@@ -38,7 +40,7 @@ const MainBanner = () => {
                                         src="/images/banner-image/book.png" 
                                         className="animate__animated animate__bounceIn animate__delay-0.1s" 
                                         alt="book"
-                                    />
+                                    />""
                         
                                     <img 
                                         src="/images/banner-image/dekstop.png" 

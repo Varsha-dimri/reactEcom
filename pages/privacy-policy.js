@@ -166,29 +166,80 @@ const PrivacyPolicy = () => {
                                     <div className="row">
                                         <div className="col-lg-6 col-md-6">
                                             <h4><strong>Acknowledgement Time</strong></h4>
+                                            <div className="row">
+                                                <div className="col-lg-6 col-md-6">   
+
+                                                </div>
+                                            </div>
+                                            <div className="row">
+                                                <div className="col-lg-3 col-md-3">
+                                                    <h6>Level 1</h6>
+                                                </div>
+                                                <div className="col-lg-3 col-md-3">
+                                                    <h6>8 Hours</h6>
+                                                </div>
+                                            </div>
+                                            <div className="row">
+                                                <div className="col-lg-3 col-md-3">
+                                                    <h6>Level 2</h6>
+                                                </div>
+                                                <div className="col-lg-3 col-md-3">
+                                                    <h6>4 Hours</h6>
+                                                </div>
+                                            </div>
+                                            <div className="row">
+                                                <div className="col-lg-3 col-md-3">
+                                                    <h6>Level 3</h6>
+                                                </div>
+                                                <div className="col-lg-3 col-md-3">
+                                                    <h6>2 Hours</h6>
+                                                </div>
+                                            </div>
                                         </div>
-                                        
                                         <div className="col-lg-6 col-md-6">
                                             <h4><strong>Resolution Time (Business Hours)</strong></h4>
                                             <div className="row">
-                                            <div className="col-lg-6 col-md-6">
-                                                <h6><strong>Work Around Time</strong></h6>
+                                                <div className="col-lg-6 col-md-6">
+                                                    <h6><strong>Work Around Time</strong></h6>
+                                                </div>
+                                            
+                                                <div className="col-lg-6 col-md-6">
+                                                    <h6><strong>Permanent Fix Time</strong></h6>
+                                                </div>
+                                            
+                                                <div className="row">                                              
+                                                    <div className="col-lg-3 col-md-3">
+                                                        <h6>96 Hours</h6>
+                                                    </div>
+                                                </div>
+                                            <div className="row">
+                                                <div className="col-lg-3 col-md-3">
+                                                    <h6>16 Hours</h6>
+                                                </div>
+                                                <div className="col-lg-3 col-md-3">
+                                                    <h6>72 Hours</h6>
+                                                </div>
                                             </div>
-                                           
-                                            <div className="col-lg-6 col-md-6">
-                                                <h6><strong>Permanent Fix Time</strong></h6>
-
+                                            <div className="row">
+                                                <div className="col-lg-3 col-md-3">
+                                                    <h6>8 Hours</h6>
+                                                </div>
+                                                <div className="col-lg-3 col-md-3">
+                                                    <h6>48 Hours</h6>
+                                                </div>
                                             </div>
                                             </div>
                                         </div>
                                     </div>
+
+                                    <h4><strong>Services Uptime :</strong></h4>
+                                    
                                 </AccordionItemPanel>
                             </AccordionItem>
                         </Accordion>
-                    </div>
+                    </div>                    
+                </div>
 
-                    
-                </div> 
             <Footer />
         </>
     )
