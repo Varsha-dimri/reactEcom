@@ -136,12 +136,12 @@ const PrivacyPolicy = () => {
                                 <AccordionItemPanel>
                                     <h2><strong>Service Level Agreement (SLA) zxz</strong></h2>
                                     <ul>
-                                        <li><strong>Standard terms applicable to Service Levels</strong></li>
-                                        <li><strong> Customer Support</strong></li>
-                                        <li><strong>Incident Reported</strong></li>
-                                        <li><strong>Resolution Times Or Revert</strong></li>
-                                        <li><strong>Services Uptime</strong></li>
-                                        <li><strong>Escalation</strong></li>
+                                        <li className="py-2"><strong>Standard terms applicable to Service Levels</strong></li>
+                                        <li className="py-2"><strong> Customer Support</strong></li>
+                                        <li className="py-2"><strong>Incident Reported</strong></li>
+                                        <li className="py-2"><strong>Resolution Times Or Revert</strong></li>
+                                        <li className="py-2"><strong>Services Uptime</strong></li>
+                                        <li className="py-2"><strong>Escalation</strong></li>
                                     </ul>
                                     <h4> Standard terms applicable to Service Levels :</h4>
                                     <ul>
