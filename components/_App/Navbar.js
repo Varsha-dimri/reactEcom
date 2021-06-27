@@ -66,10 +66,9 @@ const Navbar = () => {
                                                 <a onClick={toggleNavbar} className="nav-link">IVR Services</a>
                                             </Link>
                                         </li>
-
                                         <li className="nav-item">
                                             <Link href="/tollfree" activeClassName="active">
-                                                <a onClick={toggleNavbar} className="nav-link">Tollfree</a>
+                                                <a onClick={toggleNavbar} className="nav-link">Tollfree Services</a>
                                             </Link>
                                         </li>
  
@@ -221,9 +220,7 @@ const Navbar = () => {
                                     </Link>
                                 </li>
                             </ul>
-                        </div>
-
-                        
+                        </div>                        
                     </nav>
                 </div>
             </div>

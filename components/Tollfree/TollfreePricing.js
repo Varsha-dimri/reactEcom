@@ -13,10 +13,9 @@ const TollfreePricing = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-pricing-table">
                             <div className="pricing-header">
-                                <i className="flaticon-data"></i>
                                 <h4>Startup</h4>
-                                <h1>Rs. 18000/ Yearly</h1>
-                                <h3>12000 Minutes</h3>
+                                <h2>Rs. 18000/ Yearly</h2>
+                                <h5>12000 Minutes</h5>
                             </div>
                         
                                 <div className="pricing-features">
@@ -34,7 +33,7 @@ const TollfreePricing = () => {
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="#">
+                                <Link href="signup">
                                     <a className="btn btn-primary">SIGNUP TO BEGIN</a>
                                 </Link>
                             </div>
@@ -44,10 +43,9 @@ const TollfreePricing = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-pricing-table active-plan">
                             <div className="pricing-header">
-                                <i className="flaticon-cloud"></i>
                                 <h4>Advance</h4>
-                                <h1>Rs. 6000/ Yearly</h1>
-                                <h3>42000 Minutes</h3>
+                                <h2>Rs. 6000/ Yearly</h2>
+                                <h5>42000 Minutes</h5>
                             </div>
                        
                             
@@ -66,7 +64,7 @@ const TollfreePricing = () => {
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="#">
+                                <Link href="signup">
                                     <a className="btn btn-primary">SIGNUP TO BEGIN</a>
                                 </Link>
                             </div>
@@ -76,10 +74,9 @@ const TollfreePricing = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-pricing-table">
                             <div className="pricing-header">
-                                <i className="flaticon-vps"></i>
                                 <h4>Business</h4>
-                                <h1>Rs.1,20,000/ Yearly</h1>
-                                <h3>90000 Minutes</h3>
+                                <h2>Rs.1,20,000/ Yearly</h2>
+                                <h5>90000 Minutes</h5>
                                 
                             </div>
                        
@@ -99,7 +96,7 @@ const TollfreePricing = () => {
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="#">
+                                <Link href="signup">
                                     <a className="btn btn-primary">SIGNUP TO BEGIN</a>
                                 </Link>
                             </div>

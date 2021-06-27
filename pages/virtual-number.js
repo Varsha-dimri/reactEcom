@@ -6,6 +6,7 @@ import ServicesArea from "@/components/VirtualNumber/ServicesArea";
 import OurFeatures from "@/components/Features/OurFeatures";
 import VirtualNumberWorks from "@/components/VirtualNumber/VirtualNumberWorks";
 import Partners from '@/components/Common/Partners';
+import SliderVirtual from "@/components/Common/slidervirtual";
 import CTAStyleTwo from '@/components/Common/CTAStyleTwo';
 import Footer from "@/components/_App/Footer";
 
@@ -20,7 +21,8 @@ const VirtualNumber = () => {
             <ServicesArea />
             <OurFeatures />
             <VirtualNumberWorks />
-            <Partners />       
+            <Partners /> 
+            <SliderVirtual />      
             <CTAStyleTwo />
             <Footer />
         </>

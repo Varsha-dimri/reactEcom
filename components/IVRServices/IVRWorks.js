@@ -6,7 +6,7 @@ const IVRWorks = () => {
         <section>
             <div className ="Container-fluid">
                 <hr></hr>
-                <h2 className="text-center p-4 px-5">How Virual Number Actually Works</h2>
+                <h2 className="text-center p-4 px-5">How Actually IVR Solution Works</h2>
                 <hr></hr>
             </div>
        

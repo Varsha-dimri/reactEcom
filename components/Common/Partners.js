@@ -37,8 +37,8 @@ const Partners = () => {
             <div className="container">
                 {display ? <OwlCarousel 
                     className="partner-slides owl-carousel owl-theme"
-                    {...options}
-                > 
+                    {...options}>
+                        
                     <div className="single-ml-partner">
                         <Link href="#">
                             <a target="_blank">

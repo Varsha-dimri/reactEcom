@@ -13,7 +13,7 @@ const options = {
     items: 1,
 };
 
-const slidervirtual = () => {
+const SliderVirtual = () => {
     const [display, setDisplay] = React.useState(false);
 
     React.useEffect(() => {
@@ -23,36 +23,40 @@ const slidervirtual = () => {
     return (
         <div className="agency-portfolio-feedback-area ptb-80">
             <div className="container">
+                <div className="" style={{Border: "1px"}}>
                 {display ? <OwlCarousel 
                     className="agency-portfolio-feedback-slides owl-carousel owl-theme"
                     {...options}
                 > 
-                    <div className="agency-portfolio-feedback-item">
+                    <div className="agency-portfolio-feedback-item1">
                         <p>With IVR, we have been able to efficiently transfer calls to right agent, So that basic but important queries are efficiently handled</p>
-                        
-                        <p>Amit Singla</p>
-                        <p>Director, Tourist Asia</p>
-                       
+                        <div className="" style={{backgroundColor: "Grey" , transparent}}>
+                            <p>Amit Singla<br />
+                            Director, Tourist Asia</p>
+                        </div>
                     </div>
 
-                    <div className="agency-portfolio-feedback-item">
+                    <div className="agency-portfolio-feedback-item2">
                         <p>With IVR/Missed Call Service ,We increased the efficiency of receiving the calls and monitor them. Our business conversion get increased by giving the feedback for their customer interaction</p>
-                        
-                        <p>Shriram</p>
-                        <p>Director, Simplified Learning</p>
+                        <div className="" style={{backgroundColor: "Grey" , transparent}}>
+                            <p>Shriram<br />
+                            Director, Simplified Learning</p>
+                        </div>
                        
                     </div>
 
-                    <div className="agency-portfolio-feedback-item">
+                    <div className="agency-portfolio-feedback-item3">
                         <p>With Toll free, We increased the sales inquiry for our product. Customer is also happy to call on TOll free number wherein he's not been charged from telecom companies for the call when they areb speaking to us for query or service support.</p>
-                        <p>Michael Nazareth</p>
-                        <p>Director, Allianz Health</p>
-                     
+                        <div className="" style={{backgroundColor: "Grey" , transparent}}>
+                            <p>Michael Nazareth<br />
+                            Director, Allianz Health</p>
+                        </div>
                     </div>
                 </OwlCarousel> : ''}
+                </div>
             </div>
         </div>
     )
 }
 
-export default slidervirtual;
+export default SliderVirtual;
