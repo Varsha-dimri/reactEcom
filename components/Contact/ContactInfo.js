@@ -9,11 +9,11 @@ const ContactInfo = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="contact-info-box">
                             <div className="icon">
-                                <Icon.Mail />
+                                <Icon.MapPin />
                             </div>
-                            <h3>Mail Here</h3>
-                            <p><a href="mailto:admin@startp.com">admin@startp.com</a></p>
-                            <p><a href="mailto:info@startp.com">info@startp.com</a></p>
+                            <h3>Faridabad Office:-</h3>
+                            <p>SCO-12, 1st Floor, Ramneek Shopping</p>
+                            <p>Complex, Part-II, NIT-1, Faridabad -121001</p>
                         </div>
                     </div>
 
@@ -22,19 +22,20 @@ const ContactInfo = () => {
                             <div className="icon">
                                 <Icon.MapPin />
                             </div>
-                            <h3>Visit Here</h3>
-                            <p>27 Division St, New York, NY 10002, United States of America</p>
+                            <h3>Gurgaon Office :-</h3>
+                            <p>5121/31, F-Block, Rajendra Park, Old</p>
+                            <p>Gurgaon, Near PNB Bank, Gurgaon -122001</p>
                         </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="contact-info-box">
-                            <div className="icon">
-                                <Icon.Phone />
+                        <div className="icon">
+                                <Icon.MapPin />
                             </div>
-                            <h3>Call Here</h3>
-                            <p><a href="tel:+1234567890">+123 456 7890</a></p>
-                            <p><a href="tel:+2414524526">+241 452 4526</a></p>
+                            <h3>Bangalore Office :-</h3>
+                            <p>1st Stage, 80 feet Road, Indira Nagar, H</p>
+                            <p>Colony, Bengaluru, Karnataka – 560038</p>
                         </div>
                     </div>
                 </div>

@@ -109,6 +109,7 @@ const DialerPricing = () => {
                                     <li><i data-feather="check"></i> Available</li>
                                     <li><i data-feather="check"></i> Real-time Report</li>
                                     <li><i data-feather="check"></i> Automatic</li>
+                                    <br />    
                                 </ul>
                             </div>
                             

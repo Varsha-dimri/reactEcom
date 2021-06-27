@@ -6,7 +6,7 @@ const PageBanner = ({pageTitle}) => {
             <div className="d-table">
                 <div className="d-table-cell">
                     <div className="container">
-                        <h2>{pageTitle}</h2>
+                        
                     </div>
                 </div>
             </div>
@@ -14,7 +14,7 @@ const PageBanner = ({pageTitle}) => {
             {/* Shape Images */}
             <div className="shape1">
                 <img src="/images/shape1.png" alt="shape" />
-            </div>
+               </div>
 			<div className="shape2 rotateme">
                 <img src="/images/shape2.svg" alt="shape" />
             </div>

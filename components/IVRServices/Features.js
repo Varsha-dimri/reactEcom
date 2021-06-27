@@ -6,7 +6,7 @@ const Features = () => {
     return (
 		<div className="container">
         <div className="features-area ptb-80 pb-50">
-			
+			<div className="row justify-content-center align-items-center">
 				<div className="section-title">
 					<h2><u>Features</u></h2>
 				</div>
@@ -30,6 +30,7 @@ const Features = () => {
 								<li> Onhold Music</li>
 								<li> Voicemail</li>
 								<li> Sticky agent</li>
+								<br />
 							</ul>
 						</div>
 					</div>
@@ -74,6 +75,7 @@ const Features = () => {
 								<li> Intelligent Call Routing</li>
 								<li> Multiple Call Connected at same time</li>
 								<li> Office timing Setup</li>
+								<br />
 							</ul>
 						</div>
 					</div>
@@ -93,12 +95,18 @@ const Features = () => {
 							<ul>
 								<li> Easy Manageable</li>
 								<li> Multi Agent login</li>
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
     )
 }
 

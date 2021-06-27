@@ -4,9 +4,9 @@ import Link from 'next/link';
 const MainBanner = () => {
     return (
 		<div className="main-banner">
-			<div className="d-table">
-				<div className="d-table-cell">
-					<div className="container">
+		 <div className="d-table">
+			    <div className="d-table-cell"> 
+                    <div className="container-fluid"> 
 						<div className="row h-100 justify-content-center align-items-center">
 							<div className="col-lg-6 offset-lg-1">
 								<div className="banner-image"  >
@@ -106,7 +106,6 @@ const MainBanner = () => {
 				</div>
 			</div>
 
-            {/* Shape Images */}
 			<div className="shape1">
 				<img src="/images/shape1.png" alt="shape"/>
 			</div>
@@ -131,8 +130,8 @@ const MainBanner = () => {
 			<div className="shape8 rotateme">
 				<img src="/images/shape2.svg" alt="shape"/>
 			</div>
-		</div>
+        </div>
     )
 }
 
-export default MainBanner
+export default MainBanner;

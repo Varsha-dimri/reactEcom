@@ -4,7 +4,7 @@ import MainBanner from "@/components/Tollfree/MainBanner";
 import Bar from "@/components/common/Bar";
 import ServicesArea from "@/components/Tollfree/ServicesArea";
 import Features from "@/components/IVRServices/Features";
-import IVRWorks from "@/components/Tollfree/IVRWorks";
+import IVRWorks from "@/components/Tollfree/TollfreeWorks";
 import TollfreePricing from "@/components/PricingPlans/Navbarsolutions/TollfreePricing";
 import FAQ from "@/components/Tollfree/Faq";
 import Partners from '@/components/Common/Partners';

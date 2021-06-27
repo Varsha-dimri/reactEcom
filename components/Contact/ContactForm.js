@@ -69,7 +69,7 @@ const ContactForm = () => {
                     <div className="col-lg-6 col-md-12">
                         <form id="contactForm" onSubmit={handleSubmit(onSubmit)}>
                             <div className="row">
-                                <div className="col-lg-12 col-md-12">
+                                <div className="col-lg-6 col-md-16">
                                     <div className="form-group">
                                         <input 
                                             type="text" 
@@ -86,7 +86,7 @@ const ContactForm = () => {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-12 col-md-12">
+                                <div className="col-lg-6 col-md-6">
                                     <div className="form-group">
                                         <input 
                                             type="text" 
@@ -120,12 +120,13 @@ const ContactForm = () => {
                                     </div>
                                 </div>
 
+                                
                                 <div className="col-lg-6 col-md-6">
                                     <div className="form-group">
                                         <input 
                                             type="text" 
-                                            name="subject" 
-                                            placeholder="Your Subject" 
+                                            name="City" 
+                                            placeholder="Your City" 
                                             className="form-control" 
                                             value={contact.subject}
                                             onChange={handleChange}
@@ -133,6 +134,40 @@ const ContactForm = () => {
                                         />
                                         <div className='invalid-feedback' style={{display: 'block'}}>
                                             {errors.subject && 'Subject is required.'}
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="form-group">
+                                        <input 
+                                            type="text" 
+                                            name="Company Name" 
+                                            placeholder="Company Name" 
+                                            className="form-control" 
+                                            value={contact.subject}
+                                            onChange={handleChange}
+                                            ref={register({ required: true })}
+                                        />
+                                        <div className='invalid-feedback' style={{display: 'block'}}>
+                                            {errors.Company_Name && 'Company_Name is required.'}
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-6 col-md-6">
+                                    <div className="form-group">
+                                        <input 
+                                            type="text" 
+                                            name="Select Product" 
+                                            placeholder="Select Product" 
+                                            className="form-control" 
+                                            value={contact.subject}
+                                            onChange={handleChange}
+                                            ref={register({ required: true })}
+                                        />
+                                        <div className='invalid-feedback' style={{display: 'block'}}>
+                                            {errors.Select_Product && 'Select_Product is required.'}
                                         </div>
                                     </div>
                                 </div>
