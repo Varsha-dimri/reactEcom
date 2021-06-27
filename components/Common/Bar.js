@@ -7,7 +7,7 @@ const Bar = () => {
             <div className="container">
                 <div className="content">
                     <div className="row h-100 justify-content-center align-items-center">      
-                        <div className="col-lg-3">   
+                        <div className="col-lg-4">   
                             <h2>Welcome To Techmet</h2>
                         </div>
 
@@ -35,7 +35,6 @@ const Bar = () => {
                     </div>
                 </div>
             </div>         
-           
         </>
     )
  

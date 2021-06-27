@@ -131,7 +131,7 @@ const Footer = () => {
 
                     <div className="col-lg-3 col-md-6">
                         <div className="single-footer-widget">
-                            <h3>Reach Us</h3>
+                            <h2>Reach Us</h2>
                             
                             <ul className="footer-contact-info">
                                 <li> 

@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
-import MainBanner from '@/components/Missed Call Service/MainBanner';
-import ServicesArea from '@/components/Missed Call Service/ServicesArea';
-import Features from '@/components/Missed Call Service/Features';
+import MainBanner from '@/components/MissedCallService/MainBanner';
+import ServicesArea from '@/components/MissedCallService/ServicesArea';
+import Features from '@/components/MissedCallService/Features';
 import IVRWorks from '@/components/Missed Call Service/IVRWorks';
 import MissedCallPricing from '@/components/PricingPlans/Navbarsolutions/MissedCallPricing';
 import Footer from "@/components/_App/Footer";

@@ -15,7 +15,7 @@ const IVRWorks = () => {
                 <div className ="row">
                     <div className ="col-9 p-5">
                         <div>
-                        <h6 className="px-5">Anyone who calls on your Virtual Number, will first hear a Company welcome message (<strong>Welcome to XYZ Company Limited, We offers the special products and services</strong>) and post welcome message IVR extension option will come :</h6>
+                        <h6 className="px-5">Anyone who calls on your Office Number (Virtual Number), will first hear a Company welcome message (<strong>Welcome to XYZ Company Limited, We offers the special products and services</strong> post welcome message IVR extension option will come :</h6>
                    
                             <ul className ="px-5 m-5 display-7">
                             <li><h5>Press 1 for Sales Department</h5></li>
