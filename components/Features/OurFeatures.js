@@ -12,7 +12,8 @@ const OurFeatures = () => {
 
                 <div className="row">
                     <div className="col-3">
-                        <div className="single-features rounded-circle ">
+                        <div className="single-features rounded-circle">
+                        <div className="single-features rounded-circle">
                             <h3>
                                 <Link href="">
                                 <a>Online Dashboard</a>
@@ -162,7 +163,7 @@ const OurFeatures = () => {
                     </div>
                 </div>
             </div>
-        </div>
+  </div></div>       
     )
 }
 

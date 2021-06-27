@@ -8,39 +8,102 @@ const MainBanner = () => {
 			    <div className="d-table-cell"> 
                     <div className="container-fluid"> 
 						<div className="row h-100 justify-content-center align-items-center">
-                            <div className="container mt-3">
-                                <div className="carousel slide" carousel>
-                                    <ul className="carousel-indicators">
-                                        <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
-                                        <li data-target="#myCarousel" data-slide-to="1" className="active"></li>
-                                        <li data-target="#myCarousel" data-slide-to="2" className="active"></li>
-                                    </ul>
-
-                                    <div className="carousel-inner">
-                                        <div className="carousel-item active">
-                                            <img src="images/banner-image/man.png" alt="Los Angeles" width="2100" height="500" />
-                                        </div>
-                                        <div className="carousel-item active">
-                                            <img src="images/banner-image/8.png" alt="Chicago" width="2100" height="500" />
-                                        </div>
-                                        <div className="carousel-item active">
-                                            <img src="ny.jpg" alt="New York" width="2100" height="500" />
-                                        </div>
-                                    </div>
-                                    <a className="carousel-control-prev" data-slide="prev">
-                                        <span className="carousel-control-prev-icon"></span>
-                                    </a>
-                                    <a className="carousel-control-next" data-slide="next">
-                                        <span className="carousel-control-next-icon"></span>
-                                    </a>
-                                    <a className="carousel-control-next" data-slide="next">
-                                        <span className="carousel-control-next-icon"></span>
-                                    </a>
-                                </div>
-                            </div> 
-                        </div>		
-				    </div>
-				</div> 
+							<div className="col-lg-6 offset-lg-1">
+								<div className="banner-image"  >
+                                    <img 
+                                        src='/images/banner-image/man.png' 
+                                        className="animate__animated animate__fadeInDown animate__delay-0.1s" 
+                                        alt="man" 
+                                    />
+                        
+                                    <img 
+                                        src="/images/banner-image/code.png" 
+                                        className="animate__animated animate__fadeInUp animate__delay-0.1s" 
+                                        alt="code"
+                                    />
+                                
+                                    <img 
+                                        src="/images/banner-image/carpet.png" 
+                                        className="animate__animated animate__fadeInLeft animate__delay-0.1s" 
+                                        alt="carpet"
+                                    />
+                            
+                                    <img 
+                                        src="/images/banner-image/bin.png" 
+                                        className="animate__animated animate__zoomIn animate__delay-0.1s" 
+                                        alt="bin"
+                                    />
+                        
+                                    <img 
+                                        src="/images/banner-image/book.png" 
+                                        className="animate__animated animate__bounceIn animate__delay-0.1s" 
+                                        alt="book"
+                                    />
+                        
+                                    <img 
+                                        src="/images/banner-image/dekstop.png" 
+                                        className="animate__animated animate__fadeInDown animate__delay-0.1s" 
+                                        alt="dekstop"
+                                    />
+                    
+                                    <img 
+                                        src="/images/banner-image/dot.png" 
+                                        className="animate__animated animate__zoomIn animate__delay-0.1s" 
+                                        alt="dot"
+                                    />
+                        
+                                    <img 
+                                        src="/images/banner-image/flower-top-big.png" 
+                                        className="animate__animated animate__fadeInUp animate__delay-0.1s" 
+                                        alt="flower-top-big"
+                                    />
+                        
+                                    <img 
+                                        src="/images/banner-image/flower-top.png" 
+                                        className="animate__animated animate__rotateIn animate__delay-0.1s" 
+                                        alt="flower-top"
+                                    />
+                    
+                                    <img 
+                                        src="/images/banner-image/keyboard.png" 
+                                        className="animate__animated animate__fadeInUp animate__delay-0.1s" 
+                                        alt="keyboard"
+                                    />
+                            
+                                    <img 
+                                        src="/images/banner-image/pen.png" 
+                                        className="animate__animated animate__zoomIn animate__delay-0.1s" 
+                                        alt="pen"
+                                    />
+                                
+                                    <img 
+                                        src="/images/banner-image/table.png" 
+                                        className="animate__animated animate__zoomIn animate__delay-0.1s" 
+                                        alt="table"
+                                    />
+                    
+                                    <img 
+                                        src="/images/banner-image/tea-cup.png" 
+                                        className="animate__animated animate__fadeInLeft animate__delay-0.1s" 
+                                        alt="tea-cup"
+                                    />
+                        
+                                    <img 
+                                        src="/images/banner-image/headphone.png" 
+                                        className="animate__animated animate__rollIn animate__delay-0.1" 
+                                        alt="headphone"
+                                    />
+                            
+                                    <img 
+                                        src="/images/banner-image/main-pic.png" 
+                                        className="animate__animated animate__fadeInUp animate__delay-0.1" 
+                                        alt="main-pic"
+                                    />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<div className="shape1">
