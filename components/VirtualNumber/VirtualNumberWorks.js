@@ -32,7 +32,7 @@ const VirtualNumberWorks = () => {
                     </div>
                     <div class = "col-lg-3">
                     
-                            <div class="row">
+                            <div className="row">
                                 <h4>Try Free – Signup Instant</h4>
                             <div class="col-12 h-75" >
 
