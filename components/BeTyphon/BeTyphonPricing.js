@@ -1,40 +1,38 @@
 import React from 'react';
 import Link from 'next/link';
 
-const TollfreePricing = () => {
+const BeTyphonPricing= () => {
     return (
-        
         <div className="pricing-area pt-80 pb-50 bg-f7fafd">
             <div className="container">
                 <div className="section-title">
-                    <h2>Price</h2>
+                    <h2>Pricing of Plan with Features</h2>
                 </div>
-
+                <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-4 col-md-6">
                         <div className="single-pricing-table">
                             <div className="pricing-header">
                                 <h4>Startup</h4>
-                                <h2>Rs. 18000/ Yearly</h2>
-                                <h5>12000 Minutes</h5>
+                                <h3>1 User</h3>
+                                <h5> (Forever)</h5>
                             </div>
                         
                                 <div className="pricing-features">
                                 <ul>
-                                    <li><i data-feather="check"></i> Welcome Message</li>
-                                    <li><i data-feather="check"></i> Programmable Extensions</li>
-                                    <li><i data-feather="check"></i> SMS Alert</li>
-                                    <li><i data-feather="check"></i> Voicemail</li>
-                                    <li><i data-feather="check"></i> Number Blacklist</li>
-                                    <li><i data-feather="check"></i> Multilevel IVR</li>
-                                    <li><i data-feather="check"></i> Sticky Agent</li>
-                                    <li><i data-feather="check"></i> Circle base Routing</li>
-                                    <li><i data-feather="check"></i> Customize Sender Id</li>
+                                    <li><i data-feather="check"></i> 1 Users </li>
+                                    <li><i data-feather="check"></i> Email Support Only</li>
+                                    <li><i data-feather="check"></i> Web & Mobile CRM</li>
+                                    <li><i data-feather="check"></i> Auto Lead Distribution</li>
+                                    <li><i data-feather="check"></i> Tasks & Reminders </li>
+                                    <li><i data-feather="check"></i> Customized Calling structure </li>
+                                    <li><i data-feather="check"></i> Real-time Reports </li>
+                                    <br />                                 
                                 </ul>
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="/signup">
+                                <Link href="signup">
                                     <a className="btn btn-primary">SIGNUP TO BEGIN</a>
                                 </Link>
                             </div>
@@ -45,27 +43,27 @@ const TollfreePricing = () => {
                         <div className="single-pricing-table active-plan">
                             <div className="pricing-header">
                                 <h4>Advance</h4>
-                                <h2>Rs. 6000/ Yearly</h2>
-                                <h5>42000 Minutes</h5>
+                                <h3>Rs. 1000/User/Month</h3>
+                                <h5>Billed Yearly</h5>
                             </div>
                        
                             
                             <div className="pricing-features">
                                 <ul>
-                                     <li><i data-feather="check"></i> Welcome Message</li>
-                                    <li><i data-feather="check"></i> Programmable Extensions</li>
-                                    <li><i data-feather="check"></i> SMS Alert</li>
-                                    <li><i data-feather="check"></i> Voicemail</li>
-                                    <li><i data-feather="check"></i> Number Blacklist</li>
-                                    <li><i data-feather="check"></i> Multilevel IVR</li>
-                                    <li><i data-feather="check"></i> Sticky Agent</li>
-                                    <li><i data-feather="check"></i> Customize Sender Id</li>
-                                    <li><i data-feather="check"></i> Circle base Routing</li>
+                                <li><i data-feather="check"></i> Everything in free, and  </li>
+                                    <li><i data-feather="check"></i> Chat & phone support</li>
+                                    <li><i data-feather="check"></i> Auto Lead Capture</li>
+                                    <li><i data-feather="check"></i> Dynamic Reports</li>
+                                    <li><i data-feather="check"></i> SMS & Email Communication</li>
+                                    <li><i data-feather="check"></i> Push Notification </li>
+                                    <li><i data-feather="check"></i> Call Details & Call Recording </li>
+                                    <li><i data-feather="check"></i> Real-time Tracking </li>
+                                    
                                 </ul>
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="/signup">
+                                <Link href="signup">
                                     <a className="btn btn-primary">SIGNUP TO BEGIN</a>
                                 </Link>
                             </div>
@@ -76,33 +74,33 @@ const TollfreePricing = () => {
                         <div className="single-pricing-table">
                             <div className="pricing-header">
                                 <h4>Business</h4>
-                                <h2>Rs.1,20,000/ Yearly</h2>
-                                <h5>90000 Minutes</h5>
+                                <h3>Rs. 1500/ User/ Month</h3>
+                                <h5>Billed Yearly</h5>
                                 
                             </div>
                        
                             
                             <div className="pricing-features">
                                 <ul>
-                                <li><i data-feather="check"></i> Welcome Message</li>
-                                    <li><i data-feather="check"></i> Programmable Extensions</li>
-                                    <li><i data-feather="check"></i> SMS Alert</li>
-                                    <li><i data-feather="check"></i> Voicemail</li>
-                                    <li><i data-feather="check"></i> Number Blacklist</li>
-                                    <li><i data-feather="check"></i> Multilevel IVR</li>
-                                    <li><i data-feather="check"></i> Sticky Agent</li>
-                                    <li><i data-feather="check"></i> Circle base Routing</li>
-                                     <li><i data-feather="check"></i> Customize Sender Id</li>
+                                <li><i data-feather="check"></i> Everything in Free & Standard, and </li>
+                                    <li><i data-feather="check"></i> On-site Support</li>
+                                    <li><i data-feather="check"></i> Rule based triggers</li>
+                                    <li><i data-feather="check"></i> Custom Workflow</li>
+                                    <li><i data-feather="check"></i> Push Notification </li>
+                                    <li><i data-feather="check"></i> API and Webhook Integration </li>
+                                    <li><i data-feather="check"></i> Custom Lead Integrations </li>
+                                    <br />
                                 </ul>
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="/signup">
+                                <Link href="signup">
                                     <a className="btn btn-primary">SIGNUP TO BEGIN</a>
                                 </Link>
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
 
@@ -123,4 +121,4 @@ const TollfreePricing = () => {
     );
 }
 
-export default TollfreePricing;
+export default BeTyphonPricing;
