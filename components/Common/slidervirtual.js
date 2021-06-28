@@ -30,7 +30,7 @@ const SliderVirtual = () => {
                 > 
                     <div className="agency-portfolio-feedback-item1">
                         <p>With IVR, we have been able to efficiently transfer calls to right agent, So that basic but important queries are efficiently handled</p>
-                        <div className="" style={{backgroundColor: "Grey" , transparent}}>
+                        <div className="" style={{backgroundColor: "Yellow"}}>
                             <p>Amit Singla<br />
                             Director, Tourist Asia</p>
                         </div>
@@ -38,7 +38,7 @@ const SliderVirtual = () => {
 
                     <div className="agency-portfolio-feedback-item2">
                         <p>With IVR/Missed Call Service ,We increased the efficiency of receiving the calls and monitor them. Our business conversion get increased by giving the feedback for their customer interaction</p>
-                        <div className="" style={{backgroundColor: "Grey" , transparent}}>
+                        <div className="" style={{backgroundColor: "Yellow"}}>
                             <p>Shriram<br />
                             Director, Simplified Learning</p>
                         </div>
@@ -47,7 +47,7 @@ const SliderVirtual = () => {
 
                     <div className="agency-portfolio-feedback-item3">
                         <p>With Toll free, We increased the sales inquiry for our product. Customer is also happy to call on TOll free number wherein he's not been charged from telecom companies for the call when they areb speaking to us for query or service support.</p>
-                        <div className="" style={{backgroundColor: "Grey" , transparent}}>
+                        <div className="" style={{backgroundColor: "Yellow"}}>
                             <p>Michael Nazareth<br />
                             Director, Allianz Health</p>
                         </div>

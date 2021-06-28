@@ -1,13 +1,15 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import MainBanner from '@/components/MissedCallService/MainBanner';
+import Bar from "@/components/common/Bar";
 import ServicesArea from '@/components/MissedCallService/ServicesArea';
 import Features from '@/components/MissedCallService/Features';
-import IVRWorks from '@/components/Missed Call Service/IVRWorks';
+import MissedCallWorks from '@/components/MissedCallService/MissedCallWorks';
 import MissedCallPricing from '@/components/PricingPlans/Navbarsolutions/MissedCallPricing';
+import Partners from '@/components/Common/Partners';
+import SliderVirtual from "@/components/Common/sliderVirtual";
+import CTAStyleTwo from '@/components/Tollfree/CTAStyleTwo';
 import Footer from "@/components/_App/Footer";
-import Bar from "@/components/common/Bar";
-import Text from "@/components/Missed Call Service/Text";
 
 const MissedCallService = () => {
     return (
@@ -15,11 +17,13 @@ const MissedCallService = () => {
             <Navbar />
             <MainBanner />
             <Bar />
-            <Text />
             <ServicesArea />
             <Features />
-            <IVRWorks />
+            <MissedCallWorks />
             <MissedCallPricing />
+            <Partners />
+            <SliderVirtual />
+            <CTAStyleTwo />
             <Footer />
         </>
     )

@@ -195,7 +195,6 @@ const Navbar = () => {
                                 </li>
 
                                 
-
                                 <li className="nav-item">
                                     <Link href="/pricing" activeClassName="active">
                                         <a onClick={toggleNavbar} className="nav-link">PRICING</a>
