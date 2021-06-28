@@ -19,12 +19,18 @@ const Pricing = () => {
                     <h2>Standard plan designed for businesses</h2>
                     <h4>If plan doesn’t suits you, Call us for Customised Plan on +91-9871045375 </h4>
                 </div>
+                <div class="w3-container">
+  
 
-                <button type="submit" formaction="/CloudtelephonyPricing.js">CloudTelephony</button>
-                <button type="submit" formaction="/SmsPricing.js">SMS</button>
-                <button type="submit" formaction="/DialerPricing.js">Submit to another page</button>
+<div class="w5 -bar">
+  <a href="#" class="w5-button w3-green">CloudtelephonyPricing </a>
+  <a href="#" class="w5-button">SmsPricing</a>
+  <a href="#" class="w5-button">DialerPricing</a>
 
-            <CloudtelephonyPricing />
+</div>
+
+</div>
+      <CloudtelephonyPricing />
             <SmsPricing />     
             <DialerPricing />
             <div className="text-right">

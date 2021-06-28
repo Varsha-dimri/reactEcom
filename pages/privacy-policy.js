@@ -134,106 +134,140 @@ const PrivacyPolicy = () => {
                                     </AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
-                                    <h2><strong>Service Level Agreement (SLA) zxz</strong></h2>
-                                    <ul>
-                                        <li className="py-2"><strong>Standard terms applicable to Service Levels</strong></li>
-                                        <li className="py-2"><strong> Customer Support</strong></li>
-                                        <li className="py-2"><strong>Incident Reported</strong></li>
-                                        <li className="py-2"><strong>Resolution Times Or Revert</strong></li>
-                                        <li className="py-2"><strong>Services Uptime</strong></li>
-                                        <li className="py-2"><strong>Escalation</strong></li>
+                                    <h2><strong>Service Level Agreement (SLA) </strong></h2>
+                                    <ul className="px-5">
+                                        <li className="py-2 "><h6><strong>Standard terms applicable to Service Levels</strong></h6></li>
+                                        <li className="py-2 "><h6><strong> Customer Support</strong></h6></li>
+                                        <li className="py-2 "><h6><strong>Incident Reported</strong></h6></li>
+                                        <li className="py-2 "><h6><strong>Resolution Times Or Revert</strong></h6></li>
+                                        <li className="py-2 "><h6><strong>Services Uptime</strong></h6></li>
+                                        <li className="py-2 "><h6><strong>Escalation</strong></h6></li>
                                     </ul>
-                                    <h4> Standard terms applicable to Service Levels :</h4>
+                                    <h4 className ="p-3"> Standard terms applicable to Service Levels: </h4>
                                     <ul>
-                                        <li> SLA is applicable for our <strong>“client”</strong> who paid to BSD Technologies Private Limited.</li>
-                                        <li><strong>“Techmet”</strong> herein refers to the entity, BSD Technologies Private Limited a company registered under the companies Act, 1956 and having its corporate office at SCF-12, Ramneek Complex, NIT-1, Faridabad – 121001.</li>
-                                        <li><strong> "Incident”</strong>means any set of events or circumstances resulting in failure to meet the defined service level.</li>
-                                        <li> <strong>“Service”</strong>refers to Techmet Service as given on website www.techmet.in</li>
-                                        <li> <strong>“Customer Support”</strong>means services by which Techmet will provide assistance to its Clients to resolve any issue pertaining to their services.</li>
+                                        <li className="py-2 px-4"> SLA is applicable for our <strong>“client”</strong> who paid to BSD Technologies Private Limited.</li>
+                                        <li className="py-2 px-4"><strong>“Techmet”</strong> herein refers to the entity, BSD Technologies Private Limited a company registered under the companies Act, 1956 and having its corporate office at SCF-12, Ramneek Complex, NIT-1, Faridabad – 121001.</li>
+                                        <li className="py-2 px-4"><strong>“Techmet”</strong> herein refers to the entity, BSD Technologies Private Limited a company registered under the companies Act, 1956 and having its corporate office at SCF-12, Ramneek Complex, NIT-1, Faridabad – 121001.</li>
+                                        <li className="py-2 px-4"><strong> "Incident”</strong>means any set of events or circumstances resulting in failure to meet the defined service level.</li>
+                                        <li className="py-2 px-4"><strong>“Service”</strong>refers to Techmet Service as given on website www.techmet.in</li>
+                                        <li className="py-2 px-4"><strong>“Customer Support”</strong>means services by which Techmet will provide assistance to its Clients to resolve any issue pertaining to their services.</li>
                                     </ul>
-                                    <h4><strong>Customer Support :</strong></h4>
+                                    <h4 className="py-3"><strong>Customer Support :</strong></h4>
                                     <ul>
-                                        <li> Subsriber can send email thru registerred email id to us, email to:support@techmet.in</li>
-                                        <li>Subscriber can contact thru phone by calling the customer support number at +91 98710 45375.</li>
+                                        <li className="py-2 px-4 "> Subsriber can send email thru registerred email id to us, email to:support@techmet.in</li>
+                                        <li className="py-2 px-4">Subscriber can contact thru phone by calling the customer support number at +91 98710 45375.</li>
                                     </ul>
-                                    <h4><strong>Incident Reported :</strong></h4>
-                                    <li><strong> Level 1 – “Normal”  –</strong>Errors or requests those are on business operations, e.g. Recording, Logs, Dashboard analysis etc. Service is not accessible to a particular subscriber.</li>
-                                    <li><strong>Level 2 – “Medium” –</strong>Errors that keep major functions from being performed but work around available e.g., Access to the server is slow; Time delay in response, Server accepts requests but not responding within acceptable time duration etc.</li>
-                                    <li><strong>Level 3 – “Severe” –</strong>Errors that prevent useful work from being completed e.g. Server inaccessible.</li>
+                                    <h4 className="py-3"><strong>Incident Reported :</strong></h4>
+                                    <li className="py-2 px-4"><strong> Level 1 – “Normal”  –</strong>Errors or requests those are on business operations, e.g. Recording, Logs, Dashboard analysis etc. Service is not accessible to a particular subscriber.</li>
+                                    <li className="py-2 px-4"><strong>Level 2 – “Medium” –</strong>Errors that keep major functions from being performed but work around available e.g., Access to the server is slow; Time delay in response, Server accepts requests but not responding within acceptable time duration etc.</li>
+                                    <li className="py-2 px-4"><strong>Level 3 – “Severe” –</strong>Errors that prevent useful work from being completed e.g. Server inaccessible.</li>
 
-                                    <p><strong>Resolution Times Or Revert : </strong> “Techmet” will revert and resolve the incident/support required as per mention below chart.</p>
+                                    <p className="py-3 "><h5><strong>Resolution Times Or Revert : </strong> “Techmet” will revert and resolve the incident/support required as per mention below chart.</h5></p>
 
-                                    <div className="row">
-                                        <div className="col-lg-6 col-md-6">
-                                            <h4><strong>Acknowledgement Time</strong></h4>
-                                            <div className="row">
-                                                <div className="col-lg-6 col-md-6">   
+                                <div>
+                                 <table class="table">
+                                     <thead>
+                                          <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col"><h4>Acknowledgement Time</h4></th>
+                                            <th scope="col"><h4>Resolution Time (Business Hours)</h4></th>
+                                            <th scope="col"></th>
+                                          </tr>
+                                    </thead>
+                                     <tbody>
 
-                                                </div>
-                                            </div>
-                                            <div className="row">
-                                                <div className="col-lg-3 col-md-3">
-                                                    <h6>Level 1</h6>
-                                                </div>
-                                                <div className="col-lg-3 col-md-3">
-                                                    <h6>8 Hours</h6>
-                                                </div>
-                                            </div>
-                                            <div className="row">
-                                                <div className="col-lg-3 col-md-3">
-                                                    <h6>Level 2</h6>
-                                                </div>
-                                                <div className="col-lg-3 col-md-3">
-                                                    <h6>4 Hours</h6>
-                                                </div>
-                                            </div>
-                                            <div className="row">
-                                                <div className="col-lg-3 col-md-3">
-                                                    <h6>Level 3</h6>
-                                                </div>
-                                                <div className="col-lg-3 col-md-3">
-                                                    <h6>2 Hours</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6">
-                                            <h4><strong>Resolution Time (Business Hours)</strong></h4>
-                                            <div className="row">
-                                                <div className="col-lg-6 col-md-6">
-                                                    <h6><strong>Work Around Time</strong></h6>
-                                                </div>
-                                            
-                                                <div className="col-lg-6 col-md-6">
-                                                    <h6><strong>Permanent Fix Time</strong></h6>
-                                                </div>
-                                            
-                                                <div className="row">                                              
-                                                    <div className="col-lg-3 col-md-3">
-                                                        <h6>96 Hours</h6>
-                                                    </div>
-                                                </div>
-                                            <div className="row">
-                                                <div className="col-lg-3 col-md-3">
-                                                    <h6>16 Hours</h6>
-                                                </div>
-                                                <div className="col-lg-3 col-md-3">
-                                                    <h6>72 Hours</h6>
-                                                </div>
-                                            </div>
-                                            <div className="row">
-                                                <div className="col-lg-3 col-md-3">
-                                                    <h6>8 Hours</h6>
-                                                </div>
-                                                <div className="col-lg-3 col-md-3">
-                                                    <h6>48 Hours</h6>
-                                                </div>
-                                            </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                        <tr>
+                                        <th scope="row"> </th>
+                                        <td></td>
+                                        <td><h5>Work Around Time</h5></td>
+                                        <td><h5>Permanent Fix Time</h5></td>
+                                        </tr>
 
-                                    <h4><strong>Services Uptime :</strong></h4>
+                                        <tr>
+                                        <th scope="row">Level-1</th>
+                                        <td>8 Hours</td>
+                                        <td>24 Hours</td>
+                                        <td>96 Hours</td>
+                                        </tr>
+
+                                        <tr>
+                                        <th scope="row">Level-2</th>
+                                        <td>4 Hours</td>
+                                        <td>16 Hours</td>
+                                        <td>72 Hours</td>
+                                        </tr>
+
+                                        <tr>
+                                        <th scope="row">Level-3</th>
+                                        <td>2 Hours</td>
+                                        <td>8 Hours</td>
+                                        <td>48 Hours</td>
+                                        </tr>
+                                    </tbody>
+                                    </table>
+                                </div>
                                     
+                                    <h4 className="py-4"><strong>Services Uptime :</strong></h4>
+                                    <li className="py-2 px-4">◊   SLA is applicable for our <strong>“client”</strong>  who paid to BSD Technologies Private Limited.</li>
+                                    <li className="py-2 px-4">◊  <strong>“Techmet” </strong> herein refers to the entity, BSD Technologies Private Limited a company registered under the companies Act, 1956 and having its corporate office at SCF-12, Ramneek Complex, NIT-1, Faridabad – 121001.</li>
+                                    <li className="py-2 px-4">◊   <strong>Incident”</strong>means any set of events or circumstances resulting in failure to meet the defined service level.</li> 
+                                    <li className="py-2 px-4">◊   <strong>“Service”</strong>refers to Techmet Service as given on website www.techmet.in</li>        
+                                    <li className="py-2 px-4">◊   <strong>“Customer Support”</strong>means services by which Techmet will provide assistance to its Clients to resolve any issue pertaining to their services.</li>                           
+                              <div className="py-3">
+                                  <li className="py-2 px-4">  ▪   For 0-20 incidents/Month – Zero Penalty</li>
+                                  <li className="py-2 px-4">  ▪   For 21-40 incidents/Month – 5% of the Monthly Rental will be refunded</li>
+                                  <li className="py-2 px-4">  ▪   For 41-100 incidents/Month – 10% of the Monthly Rental will be refunded</li>
+                                  <li className="py-2 px-4">  ▪   For 101- 500 incidents/Month – 50% of the Monthly Rental will be refunded</li>
+                                  <li className="py-2 px-4">  ▪   For 501 incidents/Month – 100% of the Monthly Rental will be refunded</li>
+                                  </div> 
+
+                                  <div className="py-4"><h5><strong>Escalation :</strong> Client may request escalation of incidents that have not been resolved within the outlined response and resolution times by contacting support directly by phone email.</h5></div>
+                              <div>
+                              <table class="table">
+                                     <thead>
+                                          <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col">Level</th>
+                                            <th scope="col">Departnment</th>
+                                            <th scope="col">Contact</th>
+                                          </tr>
+                                    </thead>
+                                     <tbody>
+                                       
+                                        <tr>
+                                        <th scope="row">For Support</th>
+                                        <td>Help Desk</td>
+                                        <td>Contact: (+91 98710 45375)  Or email: support@techmet.in</td>
+                                        </tr>
+
+                                        <tr>
+                                        <th scope="row">Level-1</th>
+                                        <td>Account Manager</td>
+                                        <td>Will be allocated at the time of Activation of Services</td>
+                                        </tr>
+
+                                        <tr>
+                                        <th scope="row">Level-2</th>
+                                        <td>Escalation Team</td>
+                                        <td>Email: escalation@techmet.in</td>
+                                        </tr>
+
+                                        <tr>
+                                        <th scope="row">Level-3</th>
+                                        <td>Director</td>
+                                        <td>Email: info@techmet.in</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                        <th ></th>
+                                        <td></td>
+                                        <td></td>
+                                        </tr>
+
+                                    </tbody>
+                                    </table>
+
+                            </div>
                                 </AccordionItemPanel>
                             </AccordionItem>
                         </Accordion>
