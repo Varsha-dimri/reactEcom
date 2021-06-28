@@ -4,7 +4,7 @@ import MainBanner from "@/components/VirtualNumber/MainBanner";
 import Bar from "@/components/Common/BarUseCase";
 import ServicesArea from "@/components/VirtualNumber/ServicesArea";
 // import HowitWorks from "@/components/IVRServiceProvider/HowitWorks";
-import CTAStyleTwo from '@/components/Common/CTAStyleTwo';
+import CTAStyleTwo from '@/components/Tollfree/CTAStyleTwo';
 import Footer from "@/components/_App/Footer";
 
 

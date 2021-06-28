@@ -8,7 +8,7 @@ import TollfreeWorks from "@/components/Tollfree/TollfreeWorks";
 import TollfreePricing from "@/components/Tollfree/TollfreePricing";
 import Partners from '@/components/Common/Partners';
 import SliderVirtual from "@/components/Common/sliderVirtual";
-import CTAStyleTwo from '@/components/Common/CTAStyleTwo';
+import CTAStyleTwo from '@/components/Tollfree/CTAStyleTwo';
 import Footer from "@/components/_App/Footer";
 
 const Tollfree = () => {

@@ -4,8 +4,12 @@ import Link from 'next/link';
 
 const Features = () => {
     return (
-        <div className="boxes-area ptb-80 pb-50">
-			<div className="container">
+		<div className="container">
+        <div className="features-area ptb-80 pb-50">
+			<div className="row justify-content-center align-items-center">
+				<div className="section-title">
+					<h2><u>Features</u></h2>
+				</div>
 				<div className="row">
 					<div className="col-lg-3 col-md-6">
 						<div className="single-box">
@@ -15,11 +19,19 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Zero Configuration</a>
+									<a>Professional Image</a>
 								</Link>
 							</h3>
 
-							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+							<ul>
+								<li> Welcome message </li>
+								<li> Language preference</li>
+								<li> Multi Level IVR</li>
+								<li> Onhold Music</li>
+								<li> Voicemail</li>
+								<li> Sticky agent</li>
+								<br />
+							</ul>
 						</div>
 					</div>
 
@@ -31,11 +43,18 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Code Security</a>
+									<a>Super Advance Alert & Report</a>
 								</Link>
 							</h3>
 
-							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+							<ul>
+								<li> 2 way SMS Notification</li>
+								<li> Email alerts</li>
+								<li> Call Recording</li>
+								<li> Call logs</li>
+								<li> Real time analysis</li>
+								<li> Number blacklisting</li>
+							</ul>
 						</div>
 					</div>
 
@@ -47,11 +66,17 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Team Management</a>
+									<a>24/7 Customer Availability</a>
 								</Link>
 							</h3>
 
-							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+							<ul>
+								<li> Always Connected</li>
+								<li> Intelligent Call Routing</li>
+								<li> Multiple Call Connected at same time</li>
+								<li> Office timing Setup</li>
+								<br />
+							</ul>
 						</div>
 					</div>
 
@@ -63,16 +88,25 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Access Controlled</a>
+									<a>Simple Online Panel</a>
 								</Link>
 							</h3>
 
-							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+							<ul>
+								<li> Easy Manageable</li>
+								<li> Multi Agent login</li>
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
     )
 }
 
