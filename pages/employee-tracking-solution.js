@@ -1,15 +1,12 @@
 import React from 'react';
-import Navbar from "@/components/_App/Navbar";;
-import MainBanner from "@/components/Employee Tracking Solution/MainBanner";
-import TopFeatures from '@/components/Employee Tracking Solution/TopFeatures';
-import DomainSearch from '@/components/Employee Tracking Solution/DomainSearch';
-import WhyChoose from '@/components/Employee Tracking Solution/WhyChoose';
-import EmployeetrackingPricing from '@/components/PricingPlans/Navbarsolutions/EmployeetrackingPricing';
-import FeedbackStyleTwo from '@/components/Common/FeedbackStyleTwo';
-import Partners from "@/components/Common/Partners";
-import Features from '@/components/Employee Tracking Solution/Features';
-import BlogPost from "@/components/Common/BlogPost";
-import CTA from '@/components/Common/CTA';
+import Navbar from "@/components/_App/Navbar";
+import MainBanner from '@/components/EmployeeTrackingSolution/MainBanner';
+import BarUseCase from "@/components/common/BarUseCase";
+import ServicesArea from '@/components/EmployeeTrackingSolution/ServicesArea';
+import Features from '@/components/EmployeeTrackingSolution/Features';
+import EmployeetrackingPricing from '@/components/EmployeeTrackingSolution/EmployeetrackingPricing';
+import Partners from '@/components/Common/Partners';
+import CTAStyleTwo from '@/components/Tollfree/CTAStyleTwo';
 import Footer from "@/components/_App/Footer";
 
 const EmployeeTrackingSolution = () => {
@@ -17,17 +14,12 @@ const EmployeeTrackingSolution = () => {
         <>
             <Navbar />
             <MainBanner />
-            <TopFeatures />
-            <DomainSearch />
-            <WhyChoose />
-            <EmployeetrackingPricing />
-            <FeedbackStyleTwo />
-            <div className="pb-80">
-                <Partners />
-            </div>
+            <BarUseCase />
+            <ServicesArea />
             <Features />
-            <BlogPost />
-            <CTA />
+            <EmployeetrackingPricing />
+            <Partners />
+            <CTAStyleTwo />
             <Footer />
         </>
     )

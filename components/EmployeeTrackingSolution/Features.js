@@ -8,7 +8,7 @@ const Features = () => {
         <div className="features-area ptb-80 pb-50">
 			<div className="row justify-content-center align-items-center">
 				<div className="section-title">
-					<h2><u>Features</u></h2>
+					<h2><u>Simple way to monitor the team</u></h2>
 				</div>
 				<div className="row">
 					<div className="col-lg-3 col-md-6">

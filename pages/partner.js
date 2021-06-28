@@ -3,7 +3,7 @@ import Navbar from "@/components/_App/Navbar";
 import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner'; 
 import Partners from "@/components/Common/Partners";
-import CTAStyleTwo from '@/components/Common/CTAStyleTwo';
+import CTAStyleTwo from '@/components/Tollfree/CTAStyleTwo';
 import * as Icon from 'react-feather';
  
 const Partner = () => {
