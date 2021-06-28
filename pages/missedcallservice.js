@@ -5,10 +5,10 @@ import Bar from "@/components/common/Bar";
 import ServicesArea from '@/components/MissedCallService/ServicesArea';
 import Features from '@/components/MissedCallService/Features';
 import MissedCallWorks from '@/components/MissedCallService/MissedCallWorks';
-import MissedCallPricing from '@/components/PricingPlans/Navbarsolutions/MissedCallPricing';
+import MissedCallPricing from '@/components/MissedCallService/MissedCallPricing';
 import Partners from '@/components/Common/Partners';
 import SliderVirtual from "@/components/Common/sliderVirtual";
-import CTAStyleTwo from '@/components/Tollfree/CTAStyleTwo';
+import CTAStyleTwo from '@/components/MissedCallService/CTAStyleTwo';
 import Footer from "@/components/_App/Footer";
 
 const MissedCallService = () => {

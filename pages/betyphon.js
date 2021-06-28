@@ -1,16 +1,14 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import MainBanner from '@/components/BeTyphon/MainBanner';
+import Bar from "@/components/BeTyphon/Bar";
+import ServicesArea from "@/components/BeTyphon/ServicesArea";
+import Features from '@/components/MissedCallService/Features';
+import BeTyphonWorks from"@/components/BeTyphon/BeTyphonWorks";
+import SliderVirtual from "@/components/Common/sliderVirtual";
 import Partner from '@/components/BeTyphon/Partner';
-import WhatWeOffer from '@/components/BeTyphon/WhatWeOffer';
-import AboutUsContent from '@/components/BeTyphon/AboutUsContent';
-import OurServices from '@/components/BeTyphon/OurServices';
-import FunFactsArea from '@/components/Common/FunFactsArea';
-import Projects from '@/components/BeTyphon/Projects';
-import BeTyphonPricing from '@/components/PricingPlans/Navbarsolutions/BeTyphonPricing';
-import FeedbackStyleFour from '@/components/Common/FeedbackStyleFour';
-import BlogCard from '@/components/BeTyphon/BlogCard';
-import Newsletter from '@/components/Common/Newsletter';
+import BeTyphonPricing from '@/components/BeTyphon/BeTyphonPricing';
+import CTAStyleTwo from '@/components/BeTyphon/CTAStyleTwo';
 import Footer from "@/components/_App/Footer";
 
 const BeTyphon = () => {
@@ -18,16 +16,14 @@ const BeTyphon = () => {
         <>
             <Navbar />
             <MainBanner />
+            <Bar />
+            <ServicesArea />
+            <Features />
+            <BeTyphonWorks /> 
+            <BeTyphonPricing />
+            <SliderVirtual />
             <Partner />
-            <WhatWeOffer />
-            <AboutUsContent />
-            <OurServices />
-            <FunFactsArea />
-            <Projects />
-            <BeTyphonPricing /> 
-            <FeedbackStyleFour />
-            <BlogCard />
-            <Newsletter />
+            <CTAStyleTwo />
             <Footer />
         </>
     )
