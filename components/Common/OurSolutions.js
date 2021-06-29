@@ -13,7 +13,7 @@ const OurSolutions = () => {
                     <div className="row">
                         <div className="col-3">
                             <div className="icon spinner-border-m  ">
-                                <img src="/images/ivr service-icon.png" class="rounded-circle" alt="Cinque Terre"/>
+                                <img src="/images/ivr service-icon.png" className="rounded-circle" alt="Cinque Terre"/>
 							</div>
                             <h5>IVR Service</h5><br />
                             <p>Automated telephony system that interacts with callers, gathers information & routes calls to specific recipient.</p>
@@ -24,7 +24,7 @@ const OurSolutions = () => {
                        
                         <div className="col-3">
                             <div className="icon spinner-border-m">
-                            <img src="/images/missedcall-icon.png" class="rounded-circle" alt="Cinque Terre"/>
+                            <img src="/images/missedcall-icon.png" className="rounded-circle" alt="Cinque Terre"/>
                             </div>
                             <h5>Missed Call Service</h5><br />
                             <p>Services used for Customer engagement, verification, Lead generation, Conduct pool and collecting feedback</p>
@@ -35,7 +35,7 @@ const OurSolutions = () => {
 
                         <div className="col-3">
                             <div className="icon spinner-border-m">
-                            <img src="/images/Tollfree-icon.png" class="rounded-circle" alt="Cinque Terre"/>
+                            <img src="/images/Tollfree-icon.png" className="rounded-circle" alt="Cinque Terre"/>
                                 </div>                            
                             <h5>Tollfree Service</h5><br />
                             <p>1800 Number which free for caller, domestic and international use which add credibility for business</p>
@@ -51,7 +51,7 @@ const OurSolutions = () => {
                     <div className="row">
                         <div className="col-3">
                             <div className="icon spinner-border-m">
-                                <img src="/images/sms service-icon.png" class="rounded-circle" alt="Cinque Terre"/>
+                                <img src="/images/sms service-icon.png" className="rounded-circle" alt="Cinque Terre"/>
                             </div>
                             <h5>SMS Service</h5><br />
                             <p>SMS solution help to businesses with their marketing campaign, service alert/updates and OTP confirmation.</p>
@@ -62,7 +62,7 @@ const OurSolutions = () => {
                         
                         <div className="col-3">
                             <div className="icon spinner-border-m">
-                                <img src="/images/Voice broadband-icon.png" class="rounded-circle" alt="Cinque Terre"/>
+                                <img src="/images/Voice broadband-icon.png" className="rounded-circle" alt="Cinque Terre"/>
                             </div>
                             <h5>Voice Broadcast</h5><br />
                             <p>Voice broadcasting helps in notification, confirmations, promotions, survey & discount with scalability.</p>
@@ -73,7 +73,7 @@ const OurSolutions = () => {
 
                         <div className="col-3">
                             <div className="icon spinner-border-m">
-                                <img src="/images/Audio-icon.png" class="rounded-circle" alt="Cinque Terre"/>
+                                <img src="/images/Audio-icon.png" className="rounded-circle" alt="Cinque Terre"/>
                             </div>
                             <h5>Audio Conference</h5><br />
                             <p>Connect the caller/participant on cloud space via dial-in or dial-out method with special features.</p>
@@ -88,7 +88,7 @@ const OurSolutions = () => {
                     <div className="row">
                         <div className="col-3">
                             <div className="icon spinner-border-m">
-                                <img src="/images/Callcenter-icon.png" class="rounded-circle" alt="Cinque Terre"/>
+                                <img src="/images/Callcenter-icon.png" className="rounded-circle" alt="Cinque Terre"/>
                             </div>
                             <h5>Call Center Dialer</h5><br />
                             <p>Receive incoming calls, place outgoing calls, Call centre matrics with performance management.</p>
@@ -99,7 +99,7 @@ const OurSolutions = () => {
 
                         <div className="col-3">
                             <div className="icon spinner-border-m">
-                                <img src="/images/BeTyphon-icon.png" class="rounded-circle" alt="Cinque Terre"/>
+                                <img src="/images/BeTyphon-icon.png" className="rounded-circle" alt="Cinque Terre"/>
                             </div>
                             <h5>BeTyphon- Mobile CRM</h5><br />
                             <p>Lead Management Software helps to track and manage the lead, customer, telesales, field executive and much more</p>
@@ -110,7 +110,7 @@ const OurSolutions = () => {
 
                         <div className="col-3">
                             <div className="icon spinner-border-m">
-                                <img src="/images/ETS-icon.png" class="rounded-circle" alt="Cinque Terre"/>
+                                <img src="/images/ETS-icon.png" className="rounded-circle" alt="Cinque Terre"/>
                             </div>
                             <h5>ETS-Employee Tracking Solution</h5><br />
                             <p>Track calls in detail with Recording, Location and attendance of your employee</p>
