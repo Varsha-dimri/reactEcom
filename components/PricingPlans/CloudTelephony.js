@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const CloudtelephonyPricing = () => {
+const CloudTelephony = () => {
     return (
         <div className="pricing-area pt-80 pb-50 bg-f7fafd">
             <div className="container">
@@ -11,7 +11,6 @@ const CloudtelephonyPricing = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-pricing-table">
                             <div className="pricing-header">
-                                <i className="flaticon-data"></i>
                                 <h5>Startup Plan-Missed Call</h5>
                                 <h3>Rs. 6000</h3>
                                 <h6>PerYear</h6>
@@ -29,8 +28,8 @@ const CloudtelephonyPricing = () => {
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="#">
-                                    <a className="btn btn-primary">SIGNUP TO BEGIN</a>
+                                <Link href="signup">
+                                    <a className="btn btn-primary">START DEMO</a>
                                 </Link>
                             </div>
                         </div>
@@ -39,7 +38,6 @@ const CloudtelephonyPricing = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-pricing-table active-plan">
                             <div className="pricing-header">
-                                <i className="flaticon-cloud"></i>
                                 <h5>Startup Plan-IVR Service</h5>
                                 <h3>Rs. 12000</h3>
                                 <h6>PerYear</h6>
@@ -57,8 +55,8 @@ const CloudtelephonyPricing = () => {
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="#">
-                                    <a className="btn btn-primary">SIGNUP TO BEGIN</a>
+                                <Link href="signup">
+                                    <a className="btn btn-primary">START DEMO</a>
                                 </Link>
                             </div>
                         </div>
@@ -67,7 +65,6 @@ const CloudtelephonyPricing = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-pricing-table">
                             <div className="pricing-header">
-                                <i className="flaticon-vps"></i>
                                 <h5>Startup Plan-TollFree</h5>
                                 <h3>Rs. 18000</h3>
                                 <h6>PerYear</h6>
@@ -86,8 +83,8 @@ const CloudtelephonyPricing = () => {
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="#">
-                                    <a className="btn btn-primary">SIGNUP TO BEGIN</a>
+                                <Link href="signup">
+                                    <a className="btn btn-primary">START DEMO</a>
                                 </Link>
                             </div>
                         </div>
@@ -112,4 +109,4 @@ const CloudtelephonyPricing = () => {
     );
 }
 
-export default CloudtelephonyPricing;
+export default CloudTelephony;

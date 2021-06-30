@@ -116,7 +116,7 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/pay">
+                                    <Link href="/payus">
                                         <a>Pay Us</a>
                                     </Link>
                                 </li>

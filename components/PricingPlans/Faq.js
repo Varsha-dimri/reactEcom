@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Navbar from "@/components/_App/Navbar";
 import {
     Accordion,
@@ -13,7 +14,7 @@ const FAQ = () => {
         <>
             <Navbar />
 
-            <div className="faq-area ptb-80">
+            <div className="faq-area ">
                 <div className="container">
                     <div className="faq-accordion">
                         <div className="section-title">
@@ -85,6 +86,7 @@ const FAQ = () => {
                     </div>
                 </div>
             </div> 
+            <h6 className="text-right">Not sure about service subscription ? Please go thru <Link href="privacy-policy"><a>100% refundable policy</a></Link></h6>
         </>
     )
 }

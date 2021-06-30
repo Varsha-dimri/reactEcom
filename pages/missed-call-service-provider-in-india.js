@@ -11,9 +11,9 @@ const MissedCallServiceProviderInIndia = () => {
         <   Navbar />
             <MainBanner />
             <div className="container ptb-80 pb-50">
-                <p>
+                <h5>
                     Your customer can placed a missed call to your given number at zero cost and receive a call back immediately. Missed Call Service is easiest way to give your customer updates, Lead Generation, Free Callback to caller, Customer Engagement / Support / Feedback, Application Download, Opinion Poll, OTP/Mobile Number Verification.
-                </p>
+                </h5>
             </div>
             <MissedCallWorks />
             <Footer />

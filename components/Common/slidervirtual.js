@@ -51,7 +51,11 @@ const SliderVirtual = () => {
                          <p>Michael Nazareth<br />Director, Allianz Health</p>
                         </div>
                     </div>
+<<<<<<< HEAD
                
+=======
+                    </div>
+>>>>>>> e6268e175c55eee7f609bb8b26c83bb508034675
                 </OwlCarousel> : ''}
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
-import MainBanner from "@/components/CloudTelephony/MainBanner";
+import MainBanner from "@/components/IVRServices/MainBanner";
 import Bar from "@/components/Common/BarUseCase";
 import ServicesArea from "@/components/CloudTelephony/ServicesArea";
 import CloudTelephonyWorks from "@/components/CloudTelephony/CloudTelephonyWorks";

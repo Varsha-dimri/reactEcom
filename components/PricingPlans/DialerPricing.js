@@ -15,7 +15,6 @@ const DialerPricing = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-pricing-table">
                             <div className="pricing-header">
-                                <i className="flaticon-data"></i>
                                 <h5>-</h5>
                                 <h3>HighLights</h3>
                                 <h6>Subscribe as per Requirement</h6>
@@ -40,7 +39,7 @@ const DialerPricing = () => {
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="#">
+                                <Link href="signup">
                                     <a className="btn btn-primary">More Details</a>
                                 </Link>
                             </div>
@@ -50,7 +49,6 @@ const DialerPricing = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-pricing-table active-plan">
                             <div className="pricing-header">
-                                <i className="flaticon-cloud"></i>
                                 <h5>BeTyphon</h5>
                                 <h3>Mobile Dialer</h3>
                                 <h6>Rs.1000/Per User</h6>
@@ -78,8 +76,8 @@ const DialerPricing = () => {
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="#">
-                                    <a className="btn btn-primary">SIGNUP TO BEGIN</a>
+                                <Link href="signup">
+                                    <a className="btn btn-primary">START DEMO</a>
                                 </Link>
                             </div>
                         </div>
@@ -88,7 +86,6 @@ const DialerPricing = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-pricing-table">
                             <div className="pricing-header">
-                                <i className="flaticon-vps"></i>
                                 <h5>Auto Dialer</h5>
                                 <h3>Dialer-On Permises</h3>
                             </div>
@@ -114,8 +111,8 @@ const DialerPricing = () => {
                             </div>
                             
                             <div className="pricing-footer">
-                                <Link href="#">
-                                    <a className="btn btn-primary">SIGNUP TO BEGIN</a>
+                                <Link href="signup">
+                                    <a className="btn btn-primary">START DEMO</a>
                                 </Link>
                             </div>
                         </div>
