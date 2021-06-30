@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import MainBanner from '@/components/Voice/MainBanner';
-import Bar from "@/components/Voice/Bar";
+
 import ServicesArea from "@/components/Voice/ServicesArea";
 import Features from '@/components/Voice/Features';
 import VoiceSmsWorks from "@/components/Voice/VoiceSmsWorks";
@@ -16,7 +16,7 @@ const VoiceSMS = () => {
         <>
             <Navbar />
             <MainBanner />
-            <Bar />
+          
             <ServicesArea />
             <Features />
             <VoiceSmsWorks />

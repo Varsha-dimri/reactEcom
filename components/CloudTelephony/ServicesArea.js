@@ -1,248 +1,154 @@
 import React from 'react';
+import Link from 'next/link'
 import * as Icon from 'react-feather';
 
 const ServicesArea = () => {
     return (
         <>
-            <div className="services-area pt-80 pb-50 bg-f7fafd">
-                <div className="container">
-                    <div className="row h-100 justify-content-center align-items-center">
-                         
-                        <div className="col-lg-5">
-                            <div className="hero-content">
-                                <h2>Thousands of businesses reaping huge benefits from <strong>Virtual Number</strong> services</h2><br />
-                                    
-                                <h5>Grow your business with Virtual Number :</h5><br />
-						        <p>Virtual Number helps to manage business without moving from your seat. Calls can be forwarded to personal mobile phone so you manage your business anytime, anywhere. It enables interaction between a caller and a computer via telephone. Now, without installing a hardware – Possible to have complex and infinitely phone or voice workflow for business – Cloud telephony.</p>									
-						        {/* <Link href="/contact">
-							        <a className="btn btn-primary">Get Started</a>
-						        </Link> */}
-					        </div>
+                      <div className="container fluid">
+                <div className="content">
+                    <div className="row">      
+                        <div className="col-lg-6">   
+                     
+                            <h1 className ="py-3">Welcome To Techmet</h1>
+                            <h3>Cloud Telephony Solution will helps you to manage Communication with Customers</h3><br />
+                            <h5>Grow your business with Cloud technology based IVR :</h5><br />
+                            <h6>Cloud technology enables interaction between a caller and a computer via telephone. Call will get connected to desire person/department anywhere. Techmet offers Cloud Telephony based innovative reporting system for small, medium and enterprises business in india. Now, without installing a hardware – Possible to have complex and infinitely phone or voice workflow for business – Cloud telephony.</h6>
                         </div>
+                      
+                       
+                    <div className="col-6">
+                      <div className="col-1 "></div>
+                         <div className="row py-2 ">
+                             <div class="btn-group">
+                                   <div className="col-4"></div>
+                                   <div className="col-2">
+                                       <Link href="/contact">
+                                         <a className="btn btn-primary">Pricing</a>
+                                       </Link>
+                                   </div>
 
-                        <div className="col-lg-6 col-md-12 services-left-image"> 
-                            <img 
-                                src="/images/services-left-image/big-monitor.png"
-                                className="animate__animated animate__fadeInDown animate__delay-0.2s" 
-                                alt="big-monitor"
-                            /> 
-            
-                            <img 
-                                src="/images/services-left-image/creative.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="creative"
-                            />
-    
-                            <img 
-                                src="/images/services-left-image/developer.png"
-                                className="animate__animated animate__fadeInLeft animate__delay-0.2s" 
-                                alt="developer"
-                            />
-                    
-                            <img 
-                                src="/images/services-left-image/flower-top.png"
-                                className="animate__animated animate__fadeInLeft animate__delay-0.2s" 
-                                data-wow-delay="0.6s" 
-                                alt="flower-top"
-                            />
-        
-                            <img 
-                                src="/images/services-left-image/small-monitor.png"
-                                className="animate__animated animate__bounceIn animate__delay-0.2s" 
-                                alt="small-monitor"
-                            />
-                        
-                            <img 
-                                src="/images/services-left-image/small-top.png"
-                                className="animate__animated animate__fadeInDown animate__delay-0.2s" 
-                                alt="small-top"
-                            />
-                
-                            <img 
-                                src="/images/services-left-image/table.png"
-                                className="animate__animated animate__zoomIn animate__delay-0.2s" 
-                                alt="table"
-                            />
-            
-                            <img 
-                                src="/images/services-left-image/target.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="target"
-                            />
-                        
-                            <img 
-                                src="/images/services-left-image/cercle-shape.png"
-                                className="bg-image rotateme" 
-                                alt="shape"
-                            />
-           
-                            <img 
-                                src="/images/services-left-image/service-left-main-pic.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="main-pic"
-                            /> 
+
+                                  <div className="col-1"></div>
+                                    <div className="col-2">
+                                       <Link href="/contact">
+                                         <a className="btn btn-danger">FreeTrial</a>
+                                       </Link>
+                                    </div>
+                              </div>
+
+                           
+                            <div className="py-4"><img src="/images/Call-Management-Solutions-1.png " /></div>
+                            
+                           
+              
+                          </div>
                         </div>
-                     </div> 
+                    </div>
                 </div>
             </div>
+
+
+
             <div className="services-area ptb-80 pb-50">
                 <div className="container">
-                    <div className="row justify-content-center align-items-center"> 
-                    <div className="col-lg-6 col-md-12 services-right-image">
-                            <img 
-                                src="/images/services-right-image/book-self.png"
-                                className="animate__animated animate__fadeInDown animate__delay-0.2s" 
-                                alt="book-self"
-                            />
-                           
-                            <img 
-                                src="/images/services-right-image/box.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                data-wow-delay="0.6s" 
-                                alt="box"
-                            />
-                         
-                            <img 
-                                src="/images/services-right-image/chair.png"
-                                className="animate__animated animate__fadeInLeft animate__delay-0.2s" 
-                                alt="chair"
-                            /> 
-                            
-                            <img 
-                                src="/images/services-right-image/cloud.png"
-                                className="animate__animated animate__zoomIn animate__delay-0.2s" 
-                                alt="cloud"
-                            />
-                   
-                            <img 
-                                src="/images/services-right-image/cup.png"
-                                className="animate__animated animate__bounceIn animate__delay-0.2s" 
-                                alt="cup"
-                            />
-               
-                            <img 
-                                src="/images/services-right-image/flower-top.png"
-                                className="animate__animated animate__fadeInDown animate__delay-0.2s" 
-                                alt="flower"
-                            />
-                     
-                            <img 
-                                src="/images/services-right-image/head-phone.png"
-                                className="animate__animated animate__zoomIn animate__delay-0.2s" 
-                                alt="head-phone"
-                            />
-                  
-                            <img 
-                                src="/images/services-right-image/monitor.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="monitor"
-                            />
-                
-                            <img 
-                                src="/images/services-right-image/mug.png"
-                                className="animate__animated animate__rotateIn animate__delay-0.2s" 
-                                alt="mug"
-                            />
-           
-                            <img 
-                                src="/images/services-right-image/table.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="table"
-                            />
-                    
-                            <img 
-                                src="/images/services-right-image/tissue.png"
-                                className="animate__animated animate__zoomIn animate__delay-0.2s" 
-                                alt="tissue"
-                            />
-                   
-                            <img 
-                                src="/images/services-right-image/water-bottle.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="water-bottle"
-                            />
-                
-                            <img 
-                                src="/images/services-right-image/wifi.png"
-                                className="animate__animated animate__fadeInLeft animate__delay-0.2s" 
-                                data-wow-delay="0.6s" 
-                                alt="wifi"
-                            />
-                        
-                            <img 
-                                src="/images/services-right-image/cercle-shape.png"
-                                className="bg-image rotateme" 
-                                alt="shape"
-                            />
-                         
-                            <img 
-                                src="/images/services-right-image/service-right-main-pic.png"
-                                className="animate__animated animate__fadeInUp animate__delay-0.2s" 
-                                alt="main-pic"
-                            />
-                        </div>
-
-                        <div className="col-lg-6 col-md-12 services-content">
-                            <div className="section-title">
+                    <div className="row justify-content-center align-items-center">                        
+                       <div className="section-title">
                                 <h2>Benefits</h2>
                             </div>
 
-                            <div className="row">
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Database /> One Number for Callers
-                                    </div>
+                        <div className="row ">
+                                <div className="col-1"></div>
+                                <div className="col-2">
+                                     <div className="box">
+                                        <div className="icon spinner-border-m text-center">
+                                        <img src="/images/Benefit01.png" class="rounded-circle " alt="Cinque Terre"/>
+                                        </div> 
+                                      </div>
+                                      <h6 className="text-center text-danger">One Number for Callers</h6>
                                 </div>
 
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Globe /> Call attending at 1st ring
-                                    </div>
+                                <div className="col-1"></div>
+                                  <div className="col-2">
+                                     <div className="box">
+                                        <div className="icon spinner-border-m text-center">
+                                        <img src="/images/Benefit02.png" class="rounded-circle " alt="Cinque Terre"/>
+                                        </div> 
+                                      </div>
+                                      <h6 className="text-center text-danger">Call attending at 1st ring</h6>                  
+                                 </div>
+
+                                 
+                                <div className="col-1"></div>
+                                  <div className="col-2">
+                                     <div className="box">
+                                        <div className="icon spinner-border-m text-center">
+                                        <img src="/images/Benefit03.png" class="rounded-circle " alt="Cinque Terre"/>
+                                        </div> 
+                                      </div>
+                                      <h6 className="text-center text-danger">Distribute Same information to each caller</h6>                  
+                                 </div>
+
+                                 <div className="col-1"></div>
+                                  <div className="col-2">
+                                     <div className="box">
+                                        <div className="icon spinner-border-m text-center">
+                                        <img src="/images/Benefit04.png" class="rounded-circle" alt="Cinque Terre"/>
+                                        </div> 
+                                      </div>
+                                      <h6 className="text-center text-danger">Increase your brand image for callers</h6>                  
+                                 </div>
+
+                         </div>
+                         <hr ></hr>
+
+                         
+                        <div className="row ">
+                                <div className="col-1"></div>
+                                <div className="col-2">
+                                     <div className="box">
+                                        <div className="icon spinner-border-m text-center">
+                                        <img src="/images/Benefit05.png" class="rounded-circle" alt="Cinque Terre"/>
+                                        </div> 
+                                      </div>
+                                      <h6 className="text-center text-danger">No Hardware cost</h6>
                                 </div>
 
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.File /> Distribute Same information to each caller
-                                    </div>
-                                </div> 
+                                <div className="col-1"></div>
+                                  <div className="col-2">
+                                     <div className="box">
+                                        <div className="icon spinner-border-m text-center">
+                                        <img src="/images/Benefit06.png" class="rounded-circle" alt="Cinque Terre"/>
+                                        </div> 
+                                      </div>
+                                      <h6 className="text-center text-danger">Never loss business leads</h6>                  
+                                 </div>
 
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Cloud /> Increase your brand image for callers
-                                    </div>
-                                </div>
-                                
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.TrendingUp /> No Hardware cost
-                                    </div>
-                                </div>
+                                 
+                                <div className="col-1"></div>
+                                  <div className="col-2">
+                                     <div className="box">
+                                        <div className="icon spinner-border-m text-center">
+                                        <img src="/images/Benefit07.png" class="rounded-circle" alt="Cinque Terre"/>
+                                        </div> 
+                                      </div>
+                                      <h6 className="text-center text-danger">Pay-as-you-grow model</h6>                  
+                                 </div>
 
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Folder /> Never loss business leads
-                                    </div>
-                                </div>
+                                 <div className="col-1"></div>
+                                  <div className="col-2">
+                                     <div className="box">
+                                        <div className="icon spinner-border-m text-center">
+                                        <img src="/images/Benefit08.png" class="rounded-circle" alt="Cinque Terre"/>
+                                        </div> 
+                                      </div>
+                                      <h6 className="text-center text-danger">Scale without adding manpower</h6>                  
+                                 </div>
 
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Monitor /> Pay-as-you-grow model
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6 col-md-6">
-                                    <div className="box">
-                                        <Icon.Mail /> Scale without adding manpower
-                                    </div>
-                                </div>
-                           </div>
-                        </div>
-                            
-
-                        
-                    </div>
+                         </div>
                 </div>
-            </div>     
+            </div>
+    </div>            
         </>
     )
 }

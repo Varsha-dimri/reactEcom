@@ -19,18 +19,16 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Professional Image</a>
+									<a>Professional Calls Solution with Scalability</a>
 								</Link>
 							</h3>
 
 							<ul>
-								<li> Welcome message </li>
-								<li> Language preference</li>
+								<li> Professional Company welcome message, </li>
 								<li> Multi Level IVR</li>
-								<li> Onhold Music</li>
-								<li> Voicemail</li>
-								<li> Sticky agent</li>
-								<br />
+								<li> Call transfer as per language preference,</li>
+								<li>  Onhold Music, Voicemail, Sticky</li>
+								
 							</ul>
 						</div>
 					</div>
@@ -43,17 +41,17 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Super Advance Alert & Report</a>
+									<a>Effective Calls Management</a>
 								</Link>
 							</h3>
 
 							<ul>
+							    <li> Call Recording</li>
+							    <li> Call logs</li>
 								<li> 2 way SMS Notification</li>
-								<li> Email alerts</li>
-								<li> Call Recording</li>
-								<li> Call logs</li>
+								<li> Email alerts, Caller Number blocking,</li>
 								<li> Real time analysis</li>
-								<li> Number blacklisting</li>
+								<br />
 							</ul>
 						</div>
 					</div>
@@ -66,7 +64,7 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>24/7 Customer Availability</a>
+									<a>Tracking and Monitoring</a>
 								</Link>
 							</h3>
 
@@ -75,6 +73,8 @@ const Features = () => {
 								<li> Intelligent Call Routing</li>
 								<li> Multiple Call Connected at same time</li>
 								<li> Office timing Setup</li>
+								<br />
+								<br />
 								<br />
 							</ul>
 						</div>
@@ -88,13 +88,14 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Simple Online Panel</a>
+									<a>Reports and Analysis</a>
 								</Link>
 							</h3>
 
 							<ul>
 								<li> Easy Manageable</li>
 								<li> Multi Agent login</li>
+								<br />
 								<br />
 								<br />
 								<br />

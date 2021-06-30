@@ -1,10 +1,9 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import MainBanner from '@/components/ClickToCall/MainBanner';
-import Bar from "@/components/ClickToCall/Bar";
+import Click2CallService from "@/components/ClickToCall/Click2CallService";
 import ServicesArea from "@/components/ClickToCall/ServicesArea";
 import Features from '@/components/ClickToCall/Features';
-import Click2CallService from "@/components/ClickToCall/Click2CallService";
 import ClickToCallPricing from"@/components/ClickToCall/ClickToCallPricing";
 import SliderVirtual from "@/components/Common/sliderVirtual";
 import Partner from '@/components/ClickToCall/Partner';
@@ -16,10 +15,9 @@ const ClickToCall = () => {
         <>
             <Navbar />
             <MainBanner />
-            <Bar />
+            <Click2CallService />
             <ServicesArea />
             <Features />
-            <Click2CallService />
             <ClickToCallPricing />
             <SliderVirtual />
             <Partner />

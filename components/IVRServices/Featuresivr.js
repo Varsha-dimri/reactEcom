@@ -2,7 +2,7 @@ import React from 'react';
 import * as Icon from 'react-feather';
 import Link from 'next/link';
 
-const Features = () => {
+const Featuresivr = () => {
     return (
 		<div className="container">
         <div className="features-area ptb-80 pb-50">
@@ -110,4 +110,4 @@ const Features = () => {
     )
 }
 
-export default Features;
+export default Featuresivr;

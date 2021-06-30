@@ -2,7 +2,7 @@ import React from 'react';
 import * as Icon from 'react-feather';
 import Link from 'next/link';
 
-const Features = () => {
+const Featuresmissed = () => {
     return (
 		<div className="container">
         <div className="features-area ptb-80 pb-50">
@@ -24,12 +24,13 @@ const Features = () => {
 							</h3>
 
 							<ul>
-								<li> Welcome message </li>
-								<li> Language preference</li>
-								<li> Multi Level IVR</li>
-								<li> Onhold Music</li>
-								<li> Voicemail</li>
-								<li> Sticky agent</li>
+								<li> * Call Disconnected after ring </li>
+								<li> *Thankyou SMS to caller</li>
+						     	<br />
+								<br />
+								<br />
+								<br />
+								<br />
 								<br />
 							</ul>
 						</div>
@@ -48,12 +49,14 @@ const Features = () => {
 							</h3>
 
 							<ul>
-								<li> 2 way SMS Notification</li>
-								<li> Email alerts</li>
-								<li> Call Recording</li>
-								<li> Call logs</li>
-								<li> Real time analysis</li>
-								<li> Number blacklisting</li>
+								<li> OTP/Mobile Verification</li>
+								<li> Application Download</li>
+								<li> Opinion Poll</li>
+							    <li> Customer Engagaement</li>
+								<br />
+								<br />
+								<br />
+								
 							</ul>
 						</div>
 					</div>
@@ -72,9 +75,10 @@ const Features = () => {
 
 							<ul>
 								<li> Always Connected</li>
-								<li> Intelligent Call Routing</li>
-								<li> Multiple Call Connected at same time</li>
-								<li> Office timing Setup</li>
+								<li> Multiple Call Connected on single Number,</li>
+								<br />
+								<br />
+								<br />
 								<br />
 							</ul>
 						</div>
@@ -94,7 +98,8 @@ const Features = () => {
 
 							<ul>
 								<li> Easy Manageable</li>
-								<li> Multi Agent login</li>
+								<li> Real-time analysis</li>
+								<li>Call Logs</li>
 								<br />
 								<br />
 								<br />
@@ -110,4 +115,4 @@ const Features = () => {
     )
 }
 
-export default Features;
+export default Featuresmissed;

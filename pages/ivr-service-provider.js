@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import MainBanner from "@/components/VirtualNumber/MainBanner";
-import Bar from "@/components/Common/BarUseCase";
-import ServicesArea from "@/components/VirtualNumber/ServicesArea";
+import ServiceArea from "@/components/IVRServiceProvider/ServiceArea";
 // import HowitWorks from "@/components/IVRServiceProvider/HowitWorks";
+import SliderVirtual from "@/components/Common/sliderVirtual";
 import CTAStyleTwo from '@/components/Tollfree/CTAStyleTwo';
 import Footer from "@/components/_App/Footer";
 
@@ -13,8 +13,8 @@ const IVRServiceProvider = () => {
         <>
             <Navbar />
             <MainBanner />
-            <Bar />
-            <ServicesArea />
+            <ServiceArea />
+            <SliderVirtual />
             <CTAStyleTwo />
             <Footer />
         </>

@@ -14,15 +14,15 @@ const HowToSendSms = () => {
        
 
                 <div className="Container-fluid" >
-                    <p>
+                    <h6 className="py-2 px-5">
                         SMS Terminal – SMS can be sent through the admin panel provided by the Service Provider-TECHMET  (System will send the SMS to all the numbers that you have uploaded and you can send a simple broadcast)
-                    </p>
-                    <p>
+                    </h6>
+                    <h6 className="py-2 px-5">
                     API – You can integrate through API provided sms can be sent.
-                    </p>
-                    <p>
+                    </h6>
+                    <h6 className="py-2">
                     High capacity system is capable of sending millions of SMS simultaneously.<strong> (This also depends on   server load and interconnect traffic load between various telephone exchange/operators)</strong>
-                    </p>
+                    </h6>
                 </div>   
             </div>  
         </section>
