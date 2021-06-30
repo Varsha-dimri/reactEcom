@@ -1,7 +1,7 @@
 {
     "name": "startp",
     "version": "3.2.0",
-    "description": "StartP - React Next IT Startups & Digital Services Template",
+    "description": "Techmet - React Next IT Startups & Digital Services Template",
     "main": "index.js",
     "scripts": {
         "dev": "next dev",
@@ -16,6 +16,7 @@
         "next": "^10.0.7",
         "nodemailer": "^6.5.0",
         "nodemailer-sendgrid-transport": "^0.2.0",
+        "npm": "^7.19.0",
         "react": "^17.0.1",
         "react-accessible-accordion": "^3.3.4",
         "react-bootstrap": "^1.6.1",
@@ -26,8 +27,10 @@
         "react-owl-carousel3": "^2.2.5",
         "react-redux": "^7.1.0",
         "react-slick": "^0.28.0",
+        "react-tabbordion": "^1.0.6",
         "react-tabs": "^3.2.0",
         "react-toast-notifications": "^2.4.3",
+        "react-web-tabs": "^1.0.1",
         "redux": "^3.6.0",
         "redux-devtools-extension": "^2.13.2",
         "sass": "^1.32.7",

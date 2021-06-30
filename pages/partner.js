@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import Footer from "@/components/_App/Footer";
-import PageBanner from '@/components/Common/PageBanner'; 
+import MainBanner from '@/components/Partner/MainBanner'; 
 import Partners from "@/components/Common/Partners";
-import CTAStyleTwo from '@/components/Tollfree/CTAStyleTwo';
+import CTAStyleTwo from '@/components/PricingPlans/CTAStyleTwo';
 import * as Icon from 'react-feather';
  
 const Partner = () => {
@@ -11,16 +11,17 @@ const Partner = () => {
         <>
             <Navbar />
 
-            <PageBanner pageTitle="Blog Details" /> 
+            <MainBanner /> 
             <div className="Service-area ptb-80 pb-50">
                 <div className="container">
                     <div className="row text-center">
                         <div className="col-lg-6 col-md-6">
                             <h2>Become a Solutionist</h2>
-                            <p>
+                            <br />
+                            <h6>
                                 <strong>Techmet Solutionist Program – Solutionist</strong> is looking forward to work as reseller across India and offer cutting-edge IT Solutions (Based on Cloud Telephony & Computing) & customer Services products to customer all over !
-                            </p>
-                            <p>You just pass on the customer details and create extra source of income.</p>
+                            </h6>
+                            <h6>You just pass on the customer details and create extra source of income.</h6>
 
                                 <br />
                                 <li>Fixed incentive on sales amount.</li>
@@ -36,12 +37,13 @@ const Partner = () => {
                         </div>
                         <div className="col-lg-6 col-md-6">
                             <h2>Become a Channel Partner</h2>
-                            <p>
+                            <br />
+                            <h6>
                                 <strong>Techmet Partnership Program – Channel Partner</strong> is looking forward to work across India and offer cutting-edge IT Solutions (Based on Cloud Telephony & Computing) & Customer Services products to customer all over !
-                            </p>
-                            <p>
+                            </h6>
+                            <h6>
                             Loyalty marketing and Channel incentives to ensure a mutually beneficial partnership. Quick overview of our program’s reward options.
-                            </p>
+                            </h6>
 
                            
                                 <li>Consistent Source of Income in future</li>

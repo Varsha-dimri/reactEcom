@@ -6,7 +6,7 @@ const OurSolutions = () => {
     return (
         <div className="features-area pb-50 bg-f7fafd">
             <div className="section-title">
-                <h1  class="text-warning"><u>OUR SOLUTION</u></h1>
+                <h1 className="text-warning"><u>OUR SOLUTION</u></h1>
             </div>
             <div className="container">
                 <div className ="container-fluid">

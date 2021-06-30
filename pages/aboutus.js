@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import Partners from '@/components/Common/Partners';
 import Footer from "@/components/_App/Footer";
-import PageBanner from '@/components/Common/PageBanner'; 
+import MainBanner from '@/components/AboutUs/MainBanner'; 
 
  
 const AboutUs = () => {
@@ -11,7 +11,7 @@ const AboutUs = () => {
             <Navbar />
            
 
-            <PageBanner pageTitle="ABOUT US" />
+            <AboutUs />
 
                 <div className="container text-center">
                    <h6>BSD Technologies Pvt Ltd is the leading cloud based service provider registered under Govt. of India IT company act. We provides cost effective and cutting edge IT solutions that are reliable, resilient and responsive. When you met with us, you get IT Partner rather than a seller. We  provide communication solutions like – IVR Services, Lead Management Software, SMS Solutions, Conference Solutions and much more.</h6>

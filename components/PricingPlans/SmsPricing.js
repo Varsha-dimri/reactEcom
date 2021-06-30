@@ -13,7 +13,6 @@ const SmsPricing = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-pricing-table">
                             <div className="pricing-header">
-                                <i className="flaticon-data"></i>
                                 <h5>Text SMS</h5>
                                 <h3>Based on Usage</h3>
                                 <h6>Transactional, Promotional, OTP</h6>
@@ -34,7 +33,7 @@ const SmsPricing = () => {
                             
                             <div className="pricing-footer">
                                 <Link href="#">
-                                    <a className="btn btn-primary">SIGNUP TO BEGIN</a>
+                                    <a className="btn btn-primary">START DEMO</a>
                                 </Link>
                             </div>
                         </div>
@@ -43,7 +42,6 @@ const SmsPricing = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-pricing-table active-plan">
                             <div className="pricing-header">
-                                <i className="flaticon-cloud"></i>
                                 <h5>Voice SMS (Broadcast)</h5>
                                 <h3>Based On Usage</h3>
                                 <h6>Transactional, Promotional, OTP</h6>
@@ -64,7 +62,7 @@ const SmsPricing = () => {
                             
                             <div className="pricing-footer">
                                 <Link href="#">
-                                    <a className="btn btn-primary">SIGNUP TO BEGIN</a>
+                                    <a className="btn btn-primary">START DEMO</a>
                                 </Link>
                             </div>
                         </div>
