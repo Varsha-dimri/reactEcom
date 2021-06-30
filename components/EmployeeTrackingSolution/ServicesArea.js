@@ -8,13 +8,15 @@ const ServicesArea = () => {
             <div className="container">
                     <div className="row justify-content-center align-items-center">
                         <h2>Employee Tracking Solution</h2>    
-                        <p><Link href="employee-tracking-solution"><a><strong>Employee Tracking Solution</strong></a></Link> helps to manage your employee by real-time tracking on day activities like attendance, <strong>calls recording,</strong> day visits, GPS Location, Talk-time, Prospect contacted and much more. It provides actionable data driven insights who helps to improve and execute the team in your tele calling and field operations. Its effective <strong> Call Recording Solution</strong> on mobile.
-                        </p>
-                        <p><strong>Employee Tracking Solution</strong> is a SAAS (Software as a service) you only need to pay only charges against what you use. It’s a very simple mobile application which connected to Web App. for tracking and reporting at a glance. Manager can assign, schedule and reschedule the tasks as per employees.</p>
+                        <h6><Link href="employee-tracking-solution"><a><strong>Employee Tracking Solution</strong></a></Link> helps to manage your employee by real-time tracking on day activities like attendance, <strong>calls recording,</strong> day visits, GPS Location, Talk-time, Prospect contacted and much more. It provides actionable data driven insights who helps to improve and execute the team in your tele calling and field operations. Its effective <strong> Call Recording Solution</strong> on mobile.
+                        </h6>
+                        <br />
+                        <br />
+                        <h6><strong>Employee Tracking Solution</strong> is a SAAS (Software as a service) you only need to pay only charges against what you use. It’s a very simple mobile application which connected to Web App. for tracking and reporting at a glance. Manager can assign, schedule and reschedule the tasks as per employees.</h6>
                     </div>
                 </div>    
 
-                <div className="services-area ptb-80 pb-50">
+                <div className="services-area ptb-5s0 pb-50 bg bg-f7fafd">
                     <div className="container">
                         <div className="row justify-content-center align-items-center">                        
 
@@ -112,11 +114,16 @@ const ServicesArea = () => {
                                     <h3>Other Software Integrations</h3>
                                     <h5>Easily integrate with your current Software/ CRM /ERP for required features</h5>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
-           
+            </div>
+
+            <div className="container">
+                <h2 className="text-center">Why is it so Great ?</h2>
+                <br />
+                <img src="\images\ETS\Features-of-ETS.png" alt="ETS Solution"/>
+            </div>
         </>
     )
 }

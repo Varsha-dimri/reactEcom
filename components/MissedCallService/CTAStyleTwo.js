@@ -7,7 +7,7 @@ const CTAStyleTwo = () => {
             <div className="Container" >
                 <div className ="row agency-cta-area" >
                     <div className ="col-8 px-4 py-5">
-                        <h4 class="text-center">Know more about Missed Call Service, Call on +91-9871045375</h4>
+                        <h4 className="text-center">Know more about Missed Call Service, Call on +91-9871045375</h4>
                     </div>
 
                     <div className = "col-4 py-5 px-5 ">
