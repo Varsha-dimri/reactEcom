@@ -1,6 +1,5 @@
 import React from 'react';
-import Navbar from "@/components/_App/Navbar";
-import Footer from "@/components/_App/Footer";
+
 import {
     Accordion,
     AccordionItem,
@@ -17,7 +16,7 @@ const FAQ = () => {
                 <div className="container">
                     <div className="faq-accordion">
                         <div className="section-title">
-                            <h1  class="text-warning"><u>Frequently Asked Question</u></h1>    
+                            <h1 className="text-warning"><u>Frequently Asked Question</u></h1>    
                         </div> 
                         <Accordion allowZeroExpanded preExpanded={['a']}>
                             <AccordionItem uuid="a">

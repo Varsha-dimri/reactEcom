@@ -4,6 +4,7 @@ import MainBanner from '@/components/CallCentreDialer/MainBanner';
 import Bar from "@/components/CallCentreDialer/Bar";
 import ServicesArea from "@/components/CallCentreDialer/ServicesArea";
 import Features from '@/components/CallCentreDialer/Features';
+import CommercialTab from'@/components/CallCentreDialer/CommercialTab';
 import CallCentreDialerService from "@/components/CallCentreDialer/CallCentreDialerService";
 import SliderVirtual from "@/components/Common/sliderVirtual";
 import Partner from '@/components/CallCentreDialer/Partner';
@@ -18,6 +19,7 @@ const CallCentreDialer = () => {
             <Bar />
             <ServicesArea />
             <Features />
+            <CommercialTab />
             <CallCentreDialerService />
             <SliderVirtual />
             <Partner />

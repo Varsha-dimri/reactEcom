@@ -1,5 +1,5 @@
 import React from 'react';
-import PageBanner from '@/components/Common/PageBanner';
+import MainBanner from '@/components/PrivacyPolicy/MainBanner';
 import Navbar from "@/components/_App/Navbar";
 import Footer from "@/components/_App/Footer";
 import {
@@ -15,7 +15,7 @@ const PrivacyPolicy = () => {
         <>
             <Navbar />
 
-            <PageBanner pageTitle="Privacy Policy" />
+            <MainBanner />
 
             <div className="faq-area ptb-80">
                     <div className="faq-accordion">
