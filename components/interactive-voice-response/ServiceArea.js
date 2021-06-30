@@ -151,5 +151,4 @@ const ServicesArea = () => {
         </>
     )
 }
-
 export default ServicesArea;

@@ -6,7 +6,6 @@ const HowitWorks = () => {
     return (
         <div className="features-area pt-80 pb-50 bg-f7fafd">
             <div className="container">
-                
                 <h2>How Virual Number Actually Works</h2>
                 <div className="bar"></div>
                 <p>Anyone who calls on your Business Number, will first hear a Company welcome message (<strong>Welcome to XYZ Company Limited, We offers the special products and services</strong>) and post welcome message extension option will come :</p>
