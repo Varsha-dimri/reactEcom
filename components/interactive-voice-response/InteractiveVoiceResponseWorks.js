@@ -2,9 +2,9 @@ import React from 'react';
 // import Link from 'next/link';
 // import * as Icon from 'react-feather';
 
-const CloudTelephonyWorks = () => {
+const InteractiveVoiceResponseWorks = () => {
     return (
-<section>
+        <section>
             <div class ="Container-fluid">
                 <hr></hr>
                 <h2 class="text-center  p-4 px-5">How Virual Number Actually Works</h2>
@@ -80,4 +80,4 @@ const CloudTelephonyWorks = () => {
     )
 }
 
-export default CloudTelephonyWorks;  
+export default InteractiveVoiceResponseWorks;  
