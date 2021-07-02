@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import MainBanner from '@/components/Sms/MainBanner';
-import Bar from "@/components/Sms/Bar";
 import ServicesArea from "@/components/Sms/ServicesArea";
 import Features from '@/components/Sms/Features';
 import SmsCampaign from "@/components/Sms/SmsCampaign";
@@ -16,7 +15,6 @@ const TextSMS = () => {
         <>
             <Navbar />
             <MainBanner />
-            <Bar />
             <ServicesArea />
             <Features />
             <SmsCampaign />

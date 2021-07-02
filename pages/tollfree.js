@@ -1,9 +1,8 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import MainBanner from "@/components/Tollfree/MainBanner";
-import Bar from "@/components/common/Bar";
 import ServicesArea from "@/components/Tollfree/ServicesArea";
-import Features from "@/components/IVRServices/Features";
+import Featurestoll from "@/components/Tollfree/Featurestoll";
 import TollfreeWorks from "@/components/Tollfree/TollfreeWorks";
 import TollfreePricing from "@/components/Tollfree/TollfreePricing";
 import Partners from '@/components/Common/Partners';
@@ -16,9 +15,8 @@ const Tollfree = () => {
         <>
             <Navbar />
             <MainBanner />
-            <Bar />
             <ServicesArea />
-            <Features />
+            <Featurestoll />
             <TollfreeWorks />
             <TollfreePricing />
             <Partners />

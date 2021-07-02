@@ -2,18 +2,19 @@ import React from 'react';
 import Link from 'next/link'
 import * as Icon from 'react-feather';
 
-const ServicesArea = () => {
+const ServiceArea = () => {
     return (
         <>
                       <div className="container fluid">
                 <div className="content">
+                <h3 className ="py-3">IVR Sevices Provider, helps you to manage Communication with Customers</h3>
                     <div className="row">      
                         <div className="col-lg-6">   
                      
-                            <h1 className ="py-3">Welcome To Techmet</h1>
+                            
                             <h3>Thousands of businesses reaping huge benefits from <strong>Virtual Number</strong> services</h3><br />
-                            <h5>Grow your business with Virtual Number :</h5><br />
-                            <h6>Virtual Number helps to manage business without moving from your seat. Calls can be forwarded to personal mobile phone so you manage your business anytime, anywhere. It enables interaction between a caller and a computer via telephone. Now, without installing a hardware – Possible to have complex and infinitely phone or voice workflow for business – Cloud telephony.</h6>									
+                            <h5>Techmer is IVR Service Provider, Grow you business :</h5><br />
+                            <h6>IVR Service provides interaction between a caller and a computer via telephone. Call will get connected to desire person/department anywhere.It builts a trust factor in the mind of the prospects, so the pick up/ conversion rates will be directly increased. Techmet offers IVR Services based on Cloud Telephony innovative reporting system for small, medium and enterprises business in india. Now, without installing a hardware – Possible to have complex and infinitely phone or voice workflow for business – IVR Services</h6>
                         </div>
                       
                        
@@ -153,4 +154,4 @@ const ServicesArea = () => {
     )
 }
 
-export default ServicesArea;
+export default ServiceArea;

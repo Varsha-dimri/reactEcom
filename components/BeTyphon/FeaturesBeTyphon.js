@@ -19,17 +19,17 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Professional Image</a>
+									<a>Single Dashboard to manage all leads </a>
 								</Link>
 							</h3>
 
 							<ul>
-								<li> Welcome message </li>
-								<li> Language preference</li>
-								<li> Multi Level IVR</li>
-								<li> Onhold Music</li>
-								<li> Voicemail</li>
-								<li> Sticky agent</li>
+								<li> *Leads All in One place</li>
+								<li> *Add or Remove leads easily </li>
+								<li> *Search leads by any column </li>
+								<li> *Manage leads distribution</li>
+								<br />
+								<br />
 								<br />
 							</ul>
 						</div>
@@ -43,17 +43,19 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Super Advance Alert & Report</a>
+									<a>Call Recording & Advance Reports</a>
 								</Link>
 							</h3>
 
 							<ul>
-								<li> 2 way SMS Notification</li>
-								<li> Email alerts</li>
-								<li> Call Recording</li>
-								<li> Call logs</li>
-								<li> Real time analysis</li>
-								<li> Number blacklisting</li>
+								<li> *Real-time Reports</li>
+								<li> *Call history of dialouts</li>
+								<li> *Communication Reports</li>
+								<li> *Customized Report</li>
+								<li> *Call Recording </li>
+								<br />
+								<br />
+
 							</ul>
 						</div>
 					</div>
@@ -66,15 +68,16 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>24/7 Customer Availability</a>
+									<a>Integrations all Source for leads</a>
 								</Link>
 							</h3>
 
 							<ul>
-								<li> Always Connected</li>
-								<li> Intelligent Call Routing</li>
-								<li> Multiple Call Connected at same time</li>
-								<li> Office timing Setup</li>
+								<li> *Auto Integration(Vendors, website,IVR) </li>
+								<li>  *API capability to share or received data</li>
+								<li>  *Upload bulk data in excel sheet format</li>
+								<br />
+								<br />
 								<br />
 							</ul>
 						</div>
@@ -88,13 +91,13 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Simple Online Panel</a>
+									<a>Scalable with Pay Per Go</a>
 								</Link>
 							</h3>
 
 							<ul>
-								<li> Easy Manageable</li>
-								<li> Multi Agent login</li>
+								<li> Pay only for what you use ``Increase or reduce user as you need``</li>
+								
 								<br />
 								<br />
 								<br />

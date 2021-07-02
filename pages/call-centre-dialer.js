@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import MainBanner from '@/components/CallCentreDialer/MainBanner';
-import Bar from "@/components/CallCentreDialer/Bar";
+
 import ServicesArea from "@/components/CallCentreDialer/ServicesArea";
 import Features from '@/components/CallCentreDialer/Features';
 import CommercialTab from'@/components/CallCentreDialer/CommercialTab';
@@ -16,7 +16,7 @@ const CallCentreDialer = () => {
         <>
             <Navbar />
             <MainBanner />
-            <Bar />
+           
             <ServicesArea />
             <Features />
             <CommercialTab />

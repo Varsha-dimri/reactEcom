@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import MainBanner from '@/components/AudioConference/MainBanner';
-import Bar from "@/components/AudioConference/Bar";
+
 import ServicesArea from "@/components/AudioConference/ServicesArea";
 import Features from '@/components/AudioConference/Features';
 import HowAudioConferenceWorks from "@/components/AudioConference/HowAudioConferenceWorks";
@@ -16,7 +16,7 @@ const AudioConference = () => {
         <>
             <Navbar />
             <MainBanner />
-            <Bar />
+          
             <ServicesArea />
             <Features />
             <HowAudioConferenceWorks />
