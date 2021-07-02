@@ -1,9 +1,8 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import MainBanner from "@/components/VirtualNumber/MainBanner";
-
 import ServicesArea from "@/components/VirtualNumber/ServicesArea";
-import OurFeatures from "@/components/Features/OurFeatures";
+import OurFeatures from "@/components/VirtualNumber/OurFeatures";
 import VirtualNumberWorks from "@/components/VirtualNumber/VirtualNumberWorks";
 import Partners from '@/components/Common/Partners';
 import SliderVirtual from "@/components/Common/slidervirtual";
@@ -17,7 +16,6 @@ const VirtualNumber = () => {
         <>
             <Navbar />
             <MainBanner />
-        
             <ServicesArea />
             <OurFeatures />
             <VirtualNumberWorks />

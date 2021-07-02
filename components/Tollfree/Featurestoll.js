@@ -30,7 +30,6 @@ const Featurestoll = () => {
 							    <li> Onhold Music</li>
 								<li> Voicemail,Sticky</li>
 								
-								<br />
 							</ul>
 						</div>
 					</div>
