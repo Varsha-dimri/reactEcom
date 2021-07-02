@@ -78,18 +78,18 @@ const ServicesArea = () => {
                 </div>    
 
                 <div className="services-area ptb-80 pb-50">
-                <div className="container">
+                <div className="container bg-f78acb">
                     <div className="row justify-content-center align-items-center">                        
                        <div className="section-title">
                                 <h2>Benefits</h2>
                             </div>
 
-                        <div className="row ">
+                        <div className="row">
                                 <div className="col-1"></div>
                                 <div className="col-2">
                                      <div className="box">
                                         <div className="icon spinner-border-m text-center">
-                                        <img src="/images/Benefit01.png" class="rounded-circle " alt="Cinque Terre"/>
+                                        <img src="/images/Benefit01.png" className="rounded-circle " alt="Cinque Terre"/>
                                         </div> 
                                       </div>
                                       <h6 className="text-center text-danger">One Number for Callers</h6>
@@ -99,7 +99,7 @@ const ServicesArea = () => {
                                   <div className="col-2">
                                      <div className="box">
                                         <div className="icon spinner-border-m text-center">
-                                        <img src="/images/Benefit02.png" class="rounded-circle " alt="Cinque Terre"/>
+                                        <img src="/images/Benefit02.png" className="rounded-circle " alt="Cinque Terre"/>
                                         </div> 
                                       </div>
                                       <h6 className="text-center text-danger">Call attending at 1st ring</h6>                  
@@ -110,7 +110,7 @@ const ServicesArea = () => {
                                   <div className="col-2">
                                      <div className="box">
                                         <div className="icon spinner-border-m text-center">
-                                        <img src="/images/Benefit03.png" class="rounded-circle " alt="Cinque Terre"/>
+                                        <img src="/images/Benefit03.png" className="rounded-circle " alt="Cinque Terre"/>
                                         </div> 
                                       </div>
                                       <h6 className="text-center text-danger">Distribute Same information to each caller</h6>                  
@@ -120,7 +120,7 @@ const ServicesArea = () => {
                                   <div className="col-2">
                                      <div className="box">
                                         <div className="icon spinner-border-m text-center">
-                                        <img src="/images/Benefit04.png" class="rounded-circle" alt="Cinque Terre"/>
+                                        <img src="/images/Benefit04.png" className="rounded-circle" alt="Cinque Terre"/>
                                         </div> 
                                       </div>
                                       <h6 className="text-center text-danger">Increase your brand image for callers</h6>                  
@@ -135,7 +135,7 @@ const ServicesArea = () => {
                                 <div className="col-2">
                                      <div className="box">
                                         <div className="icon spinner-border-m text-center">
-                                        <img src="/images/Benefit05.png" class="rounded-circle" alt="Cinque Terre"/>
+                                        <img src="/images/Benefit05.png" className="rounded-circle" alt="Cinque Terre"/>
                                         </div> 
                                       </div>
                                       <h6 className="text-center text-danger">No Hardware cost</h6>
@@ -145,7 +145,7 @@ const ServicesArea = () => {
                                   <div className="col-2">
                                      <div className="box">
                                         <div className="icon spinner-border-m text-center">
-                                        <img src="/images/Benefit06.png" class="rounded-circle" alt="Cinque Terre"/>
+                                        <img src="/images/Benefit06.png" className="rounded-circle" alt="Cinque Terre"/>
                                         </div> 
                                       </div>
                                       <h6 className="text-center text-danger">Never loss business leads</h6>                  
@@ -156,7 +156,7 @@ const ServicesArea = () => {
                                   <div className="col-2">
                                      <div className="box">
                                         <div className="icon spinner-border-m text-center">
-                                        <img src="/images/Benefit07.png" class="rounded-circle" alt="Cinque Terre"/>
+                                        <img src="/images/Benefit07.png" className="rounded-circle" alt="Cinque Terre"/>
                                         </div> 
                                       </div>
                                       <h6 className="text-center text-danger">Pay-as-you-grow model</h6>                  
@@ -166,7 +166,7 @@ const ServicesArea = () => {
                                   <div className="col-2">
                                      <div className="box">
                                         <div className="icon spinner-border-m text-center">
-                                        <img src="/images/Benefit08.png" class="rounded-circle" alt="Cinque Terre"/>
+                                        <img src="/images/Benefit08.png" className="rounded-circle" alt="Cinque Terre"/>
                                         </div> 
                                       </div>
                                       <h6 className="text-center text-danger">Scale without adding manpower</h6>                  
