@@ -4,7 +4,7 @@ import Link from 'next/link'
 const BarUseCase = () => {
     return (
         <>
-            <div className="container ptb-80">
+            <div className="container">
                 <div className="content">
                     <div className="row">      
                         <div className="col-lg-7 col-md-6">   
@@ -13,7 +13,7 @@ const BarUseCase = () => {
                         
                         <div className="col-lg-2 col-md-3 col-6">
                             <Link href="/contact">
-                                <a className="btn btn-primary">Pricing</a>
+                                <a className="btn btn-primary">LOGIN</a>
                             </Link>
                         </div>
                         

@@ -16,10 +16,6 @@ const EmployeeTrackingSolution = () => {
             <MainBanner />
             <BarUseCase />
             <ServicesArea />
-                <div className="container">
-                    <h2>Why is it so Great ?</h2>
-                    <img src="\images\ETS\Features-of-ETS" alt="ETS Solution"/>
-                </div>
             <EmployeetrackingPricing />
             <Features />
             <Partners />

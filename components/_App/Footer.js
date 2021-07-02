@@ -11,37 +11,38 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-3 col-md-6">
-                        <div className="single-footer-widget">
+                        <div className="single-footer-widget pb-10">
                             <h2>Important Links</h2>
+                            <br />
                             <ul className="list">
                                 <li>
                                     <Link href="/best-ivr-service-provider">
-                                        <a>Best IVR Service Provider</a>
+                                        <h5><a>Best IVR Service Provider</a></h5>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/best-ivr-service-provider-in-delhi-ncr">
-                                        <a>Best IVR Service Provider in delhi ncr</a>
+                                        <h5><a>Best IVR Service Provider in delhi ncr</a></h5>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/missed-call-service-provider-in-india">
-                                        <a>Missed Call Service Provider in India</a>
+                                        <h5><a>Missed Call Service Provider in India</a></h5>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/best-tollfree-service-provider-in-india">
-                                        <a>Best Tollfree Service Provider in India</a>
+                                        <h5><a>Best Tollfree Service Provider in India</a></h5>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/best-lead-management-software-in-india">
-                                        <a>Best Lead Management Software in India</a>
+                                        <h5><a>Best Lead Management Software in India</a></h5>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/best-sms-service-in-delhi">
-                                        <a>Best SMS Service in Delhi</a>
+                                        <h5><a>Best SMS Service in Delhi</a></h5>
                                     </Link>
                                 </li>
                             </ul>
@@ -51,45 +52,46 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-6">
                         <div className="single-footer-widget pl-5">
                             <h2>Solutions</h2>
+                            <br />
                             <ul className="list">
                                 <li>
                                     <Link href="/ivr-services">
-                                        <a>IVR Services</a>
+                                        <h5><a>IVR Services</a></h5>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/tollfree">
-                                        <a>Tollfree Services</a>
+                                        <h5><a>Tollfree Services</a></h5>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/missedcallservice">
-                                        <a>Missedcall Services</a>
+                                        <h5><a>Missedcall Services</a></h5>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/text-sms">
-                                        <a>Transaction & OTP Messages</a>
+                                        <h5><a>Transaction & OTP Messages</a></h5>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/click-to-call">
-                                        <a>Click to Call Services</a>
+                                        <h5><a>Click to Call Services</a></h5>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/audio-conference">
-                                        <a>Audio Conference</a>
+                                        <h5><a>Audio Conference</a></h5>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/employee-tracking-solution">
-                                        <a>Employee Tracking Solution</a>
+                                        <h5><a>Employee Tracking Solution</a></h5>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/betyphon">
-                                        <a>Betyphon – Mobile CRM</a>
+                                        <h5><a>Betyphon – Mobile CRM</a></h5>
                                     </Link>
                                 </li>
                             </ul>
@@ -99,30 +101,31 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-6">
                         <div className="single-footer-widget">
                             <h2>About Us</h2> 
+                            <br />
                             <ul className="list">
                                 <li>
                                     <Link href="/partner">
-                                        <a>Partner with us</a>
+                                        <h5><a>Partner with us</a></h5>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/privacy-policy">
-                                        <a>Privacy Policy</a>
+                                        <h5><a>Privacy Policy</a></h5>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/career">
-                                        <a>Career</a>
+                                        <h5><a>Career</a></h5>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/payus">
-                                        <a>Pay Us</a>
+                                        <h5><a>Pay Us</a></h5>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/blog">
-                                        <a>Blog</a>
+                                        <h5><a>Blog</a></h5>
                                     </Link>
                                 </li>
                             </ul>
@@ -132,20 +135,21 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-6">
                         <div className="single-footer-widget">
                             <h2>Reach Us</h2>
+                            <br />
                             
                             <ul className="footer-contact-info">
                                 <li> 
                                     <Icon.MapPin />
-                                    BSD Technologies Private Limited <br />Rajendra Park, F-block, Gurgaon -122001
+                                    <h5>BSD Technologies Private Limited <br />Rajendra Park, F-block, Gurgaon -122001</h5>
                                 </li>
                                 <li>
                                     <Icon.Mail />
-                                    Email: <a href="mailto:info@techmet.in">info@techmet.in</a>
-                                    <a href="mailto:support@techmet.in">support@techmet.in</a>
+                                    <h5>Email: <a href="mailto:info@techmet.in">info@techmet.in</a></h5>
+                                    <h5><a href="mailto:support@techmet.in">support@techmet.in</a></h5>
                                 </li>
                                 <li> 
                                     <Icon.PhoneCall />
-                                    Phone: <a href="tel:18001206389">18001206389</a>
+                                    <h5>Phone: <a href="tel:18001206389">18001206389</a></h5>
                                 </li>
                             </ul>
                             <ul className="social-links">
