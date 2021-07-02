@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Navbar from "@/components/_App/Navbar";
-import MainBanner from "@/components/IVRServices/MainBanner";
+import MainBanner from "@/components/BestSms/MainBanner";
 import IVRWorks from "@/components/IVRServices/IVRWorks";
 import Footer from "@/components/_App/Footer";
 

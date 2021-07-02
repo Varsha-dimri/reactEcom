@@ -68,7 +68,7 @@ const ServicesArea = () => {
                                 <div className="col-lg-4 col-md-4">
                                     <div className="box">
                                         <div className="icon spinner-border-m">
-                                            <img src="/images/Benefit05.png" class="rounded-circle" alt="Cinque Terre"/>
+                                            <img src="/images/Benefit07.png" class="rounded-circle" alt="Cinque Terre"/>
                                         </div>
                                     </div>
                                     <h3>Notification</h3>

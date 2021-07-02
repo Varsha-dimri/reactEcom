@@ -1,6 +1,13 @@
 import React from 'react';
-import * as Icon from 'react-feather';
-import Link from 'next/link';
+import { TabProvider, TabPanel, TabLabel, TabContent, Tab, TabList } from 'react-web-tabs'
+import 'react-web-tabs/dist/react-web-tabs.css';
+
+const blockElements = {
+	content: 'tabs-content',
+	panel: 'tabs-panel',
+	label: 'tabs-title'
+  }
+  
 
 const Features = () => {
     return (
@@ -28,13 +35,34 @@ const Features = () => {
 						<h5>With Call Recording you can listen any call made by team member from anywhere with filter of region, call status, duration, and date n time</h5>
 					</div>	
 
-					<div className="col=8">
-						
+					<div className="col-8">
+					
+						<TabProvider defaultTab="one">
+							<section className="my-tabs">
+								<TabList className="my-tablist">
+									<Tab className="col-lg-3 col-md-3" tabFor="one">DASHBOARD</Tab>
+										<span className="divider"></span>
+									<Tab className="col-lg-3 col-md-3" tabFor="two">CALL RECORDINGS</Tab>
+										<span className="divider"></span>
+									<Tab className="col-lg-3 col-md-3" tabFor="three" className="my-tab">CALL DETAILS</Tab>
+								</TabList>
+								<div className="wrapper">
+									<TabPanel tabId="one">
+										<img src = "/images/ETS/ETS-1.png" alt=""/>
+									</TabPanel>
+									<TabPanel tabId="two">
+										<img src = "/images/ETS/ETS-2.png" alt=""/>
+									</TabPanel>
+									<TabPanel tabId="three">
+										<img src = "/images/ETS/ETS-3.png" alt=""/>
+									</TabPanel>
+								</div>
+							</section>
+          				</TabProvider>
 					</div>				
 				</div>
-			</div>
-		
-	</div>
+			</div>		
+		</div>
     )
 }
 

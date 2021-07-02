@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
-import MainBanner from "@/components/IVRServices/MainBanner";
+import MainBanner from "@/components/BeTyphon/MainBanner";
 import TollfreeWorks from "@/components/Tollfree/TollfreeWorks";
 import Footer from "@/components/_App/Footer";
 
