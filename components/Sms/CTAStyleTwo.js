@@ -6,11 +6,11 @@ const CTAStyleTwo = () => {
         <div className="service-area ptb-80 px-4 container">
             <div className="Container" >
                 <div className ="row agency-cta-area" >
-                    <div className ="col-8 px-4 py-5">
-                        <h4 class="text-center">Want to know more about products, Call us +91-9871045375</h4>
+                    <div class ="col-8 px-4 py-5">
+                        <h4 class="text-center">Know more about IVR Solutions, Call on +91-9871045375</h4>
                     </div>
 
-                    <div className = "col-4 py-5 px-5 ">
+                    <div class = "col-4 py-5 px-5 ">
                         <button className="btn btn-primary " type="/contact">Request for demo</button>
                     </div>       
                 </div>

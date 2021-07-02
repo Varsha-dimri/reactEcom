@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import MainBanner from '@/components/BeTyphon/MainBanner';
-import Bar from "@/components/BeTyphon/Bar";
+
 import ServicesArea from "@/components/BeTyphon/ServicesArea";
-import Features from '@/components/MissedCallService/Features';
+import Features from '@/components/MissedCallService/Featuresmissed';
 import BeTyphonWorks from"@/components/BeTyphon/BeTyphonWorks";
 import SliderVirtual from "@/components/Common/sliderVirtual";
 import Partner from '@/components/BeTyphon/Partner';
@@ -16,7 +16,7 @@ const BeTyphon = () => {
         <>
             <Navbar />
             <MainBanner />
-            <Bar />
+         
             <ServicesArea />
             <Features />
             <BeTyphonWorks /> 

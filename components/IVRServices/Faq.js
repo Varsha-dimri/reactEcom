@@ -20,6 +20,7 @@ const FAQ = () => {
                         <div className="section-title">
                             <h1>Frequently Asked Questions</h1>    
                             <p>Do you have Question ? We’ve got answers. If you’ve some other queries, <Link href="contactus"><a><strong>Contact us</strong></a></Link></p>
+                            <hr className="py-1"></hr>
                         </div>
                         <Accordion allowZeroExpanded preExpanded={['a']}>
                             <AccordionItem uuid="a">

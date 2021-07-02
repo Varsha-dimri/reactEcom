@@ -19,18 +19,17 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Professional Image</a>
+									<a>Data Management</a>
 								</Link>
 							</h3>
 
 							<ul>
-								<li> Welcome message </li>
-								<li> Language preference</li>
-								<li> Multi Level IVR</li>
-								<li> Onhold Music</li>
-								<li> Voicemail</li>
-								<li> Sticky agent</li>
+								<li> Manage your customers or contacts in your panel address book.  </li>
+								<li> Messages can be scheduled as per requirements</li>
 								<br />
+								<br />
+							
+								
 							</ul>
 						</div>
 					</div>
@@ -43,17 +42,17 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Super Advance Alert & Report</a>
+									<a>Super Advance Report</a>
 								</Link>
 							</h3>
 
 							<ul>
-								<li> 2 way SMS Notification</li>
-								<li> Email alerts</li>
-								<li> Call Recording</li>
-								<li> Call logs</li>
-								<li> Real time analysis</li>
-								<li> Number blacklisting</li>
+								<li> Real time reports downloading in excel format is available with the panel.</li>
+								<br />
+								<br />
+								<br />
+								<br />
+								
 							</ul>
 						</div>
 					</div>
@@ -66,15 +65,14 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>24/7 Customer Availability</a>
+									<a>Customization</a>
 								</Link>
 							</h3>
 
 							<ul>
-								<li> Always Connected</li>
-								<li> Intelligent Call Routing</li>
-								<li> Multiple Call Connected at same time</li>
-								<li> Office timing Setup</li>
+								<li> SMS can be auto customized, which can pick any cloum from your data (CRM, Data file etc)</li>
+								<br />
+								<br />
 								<br />
 							</ul>
 						</div>
@@ -93,13 +91,12 @@ const Features = () => {
 							</h3>
 
 							<ul>
-								<li> Easy Manageable</li>
-								<li> Multi Agent login</li>
+								<li>  Easy to use our control panel with friendly User Interface (UI)</li>
+								<li>  Our web based control panel is fully featured</li>
 								<br />
 								<br />
-								<br />
-								<br />
-								<br />
+							
+							
 							</ul>
 						</div>
 					</div>

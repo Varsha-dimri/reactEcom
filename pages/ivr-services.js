@@ -3,7 +3,7 @@ import Navbar from "@/components/_App/Navbar";
 import MainBanner from "@/components/IVRServices/MainBanner";
 import Bar from "@/components/common/Bar";
 import ServicesArea from "@/components/IVRServices/ServicesArea";
-import Features from "@/components/IVRServices/Features";
+import Featuresivr from "@/components/IVRServices/Featuresivr";
 import IVRWorks from "@/components/IVRServices/IVRWorks";
 import IVRPricing from "@/components/IVRServices/IVRPricing";
 import FAQ from "@/components/IVRServices/Faq";
@@ -19,7 +19,7 @@ const IVRServices = () => {
             <MainBanner />
             <Bar />
             <ServicesArea />
-            <Features />
+            <Featuresivr />
             <IVRWorks />
             <IVRPricing />
             <Partners />

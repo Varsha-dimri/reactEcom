@@ -24,12 +24,12 @@ const Features = () => {
 							</h3>
 
 							<ul>
-								<li> Welcome message </li>
-								<li> Language preference</li>
+								<li> Professional company welcome message</li>
 								<li> Multi Level IVR</li>
-								<li> Onhold Music</li>
-								<li> Voicemail</li>
-								<li> Sticky agent</li>
+								<li> Call transfer as per language preference</li>
+							    <li> Onhold Music</li>
+								<li> Voicemail,Sticky</li>
+								
 								<br />
 							</ul>
 						</div>
@@ -48,12 +48,12 @@ const Features = () => {
 							</h3>
 
 							<ul>
+							    <li> Call Recording</li>
+							    <li> Call logs</li>
 								<li> 2 way SMS Notification</li>
-								<li> Email alerts</li>
-								<li> Call Recording</li>
-								<li> Call logs</li>
+								<li> Email alerts, Caller Number blocking,</li>
 								<li> Real time analysis</li>
-								<li> Number blacklisting</li>
+								
 							</ul>
 						</div>
 					</div>
@@ -72,8 +72,8 @@ const Features = () => {
 
 							<ul>
 								<li> Always Connected</li>
+							    <li> Multiple Call Connected on Single Number</li>
 								<li> Intelligent Call Routing</li>
-								<li> Multiple Call Connected at same time</li>
 								<li> Office timing Setup</li>
 								<br />
 							</ul>

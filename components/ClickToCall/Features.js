@@ -19,18 +19,15 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Professional Image</a>
+									<a className="text-center">Professional Image</a>
 								</Link>
 							</h3>
 
 							<ul>
-								<li> Welcome message </li>
-								<li> Language preference</li>
-								<li> Multi Level IVR</li>
-								<li> Onhold Music</li>
-								<li> Voicemail</li>
-								<li> Sticky agent</li>
-								<br />
+								<li> An ideal facility from the organisation to facilitate customers to get in touch easily </li>
+								<li> Customisable call process</li>
+							    <br />
+							    
 							</ul>
 						</div>
 					</div>
@@ -43,17 +40,15 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Super Advance Alert & Report</a>
+									<a className="text-center">Super Advance Alert & Report</a>
 								</Link>
 							</h3>
 
 							<ul>
-								<li> 2 way SMS Notification</li>
-								<li> Email alerts</li>
-								<li> Call Recording</li>
-								<li> Call logs</li>
+								<li> Integrate with Website, Application Or CRM</li>
+								<li> Calls logs & Call recording to be used for in-depth analysis</li>
 								<li> Real time analysis</li>
-								<li> Number blacklisting</li>
+								
 							</ul>
 						</div>
 					</div>
@@ -66,14 +61,13 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>24/7 Customer Availability</a>
+									<a className="text-center">24/7 Customer Availability</a>
 								</Link>
 							</h3>
 
 							<ul>
-								<li> Always Connected</li>
-								<li> Intelligent Call Routing</li>
-								<li> Multiple Call Connected at same time</li>
+								<li> Intelligent call routing</li>
+								<li> Multiple calls connectivity in backend</li>
 								<li> Office timing Setup</li>
 								<br />
 							</ul>
@@ -88,18 +82,19 @@ const Features = () => {
 
 							<h3>
 								<Link href="/feature-details">
-									<a>Simple Online Panel</a>
+									<a className="text-center">Simple Online Panel</a>
 								</Link>
 							</h3>
 
 							<ul>
 								<li> Easy Manageable</li>
-								<li> Multi Agent login</li>
+								<li> Multiple agent log in</li>
+								<li> Easily installed</li>
 								<br />
 								<br />
 								<br />
-								<br />
-								<br />
+							
+							
 							</ul>
 						</div>
 					</div>
